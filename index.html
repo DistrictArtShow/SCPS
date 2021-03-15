@@ -1,8 +1,33 @@
+<!DOCTYPE html>
 <html>
-  <title>
-    SCPS District Art Show
-  </title>
-<body>
-Hello World!
-</body>
+  <head>
+    <title>SCPS District Art Exhibition</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="navbar" id="menu">
+  <a href="index.html" class="active">Home</a>
+  <a href="about.html">About Me</a>
+  <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+</div>
+   <video autoplay muted id="bgVideo" onended="showMenu()">
+      <source src="ReProseEnter2-1080p.mp4" >
+    </video> 
+    
+    <div class="top" id="top part" style="display:none">
+      <header>
+      <h1>Reprised Prose Designs</h1>
+        <p> This is the beginning of something awesome! </p>
+      </header>
+    </div>
+  <script>
+  
+    function showMenu() {
+  document.getElementById("menu").style.opacity = "100%";
+}
+  </script>
+  </body>
 </html>
