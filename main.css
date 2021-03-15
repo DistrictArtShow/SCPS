@@ -68,8 +68,11 @@ blockquote {
 }
 
 .navbar {
+  font-size: 20px;
+  text-align: center;
   opacity: 0%;
-  height: 30px;
+  height: 60px;
+  color: white;
   overflow: hidden;
   background-color: #333;
   position: fixed; /* Set the navbar to fixed position */
@@ -85,7 +88,7 @@ blockquote {
 
 /* Main content */
 .main {
-  margin-bottom: 30px; /* Add a top margin to avoid content overlay */
+  margin-bottom: 60px; /* Add a top margin to avoid content overlay */
 }
 .overlay {
   /* Height & width depends on how you want to reveal the overlay (see JS below) */   
