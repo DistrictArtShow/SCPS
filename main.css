@@ -67,44 +67,6 @@ blockquote {
   transition: opacity 3.5s
 }
 
-.navbar {
-  overflow: hidden;
-  background-color: #2a132a;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  z-index: 100;
-  opacity: 0%;
-  transition: opacity 3.5s
-}
-
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 1.1em;
-}
-
-@media only screen and (max-width: 500px) {
-  .navbar a {
-    padding: 10px 12px;
-    font-size: .75em;
-  }
-}
-.navbar a:hover {
-  background: #e8b5d4;
-  color: black;
-}
-
-.navbar a.active {
-  background-color: #e8b5d4;
-  color: black;
-}
-
 .overlay {
   /* Height & width depends on how you want to reveal the overlay (see JS below) */   
   height: 100%;
