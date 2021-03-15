@@ -1,0 +1,269 @@
+body {
+  background-color: #dae7ff;
+  background-position: center;
+  background-attachment: fixed;
+  top: 0;
+  left:0;
+  height: 100%;
+  width: 100%;
+  z-index: -100;
+}
+
+#bgVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -200;
+}
+
+p {
+  font-family: "Didot", serif;
+  font-size: 1em;
+}
+h1 {
+  font-family: "Copperplate", sans-serif;
+  font-size: 2.5em;
+}
+h2 {
+  font-family: "Copperplate", sans-serif;
+  font-size: 1.75em;
+}
+
+blockquote {
+  width: 50%;
+  float: right;
+  padding-right: 20px;
+  border-style: none ridge ridge none;
+  border-color: #FC8076;
+  border-width: medium;
+  font-family: "Copperplate", sans-serif;
+  font-size: .9em;
+  text-align: right;
+}
+
+.top {
+  max-width: 95%;
+  text-align: center;
+  color: #381A38;
+  margin-top: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  padding: 20px;
+  transition-delay: 4s;
+  transition: 2s;
+ 
+}
+
+.hero-image img{
+  display: block;
+  max-height 100%;
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+  opacity: 0%;
+  transition: opacity 3.5s
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #2a132a;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  opacity: 0%;
+  transition: opacity 3.5s
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar a {
+    padding: 10px 12px;
+    font-size: .75em;
+  }
+}
+.navbar a:hover {
+  background: #e8b5d4;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #e8b5d4;
+  color: black;
+}
+
+.galBox {
+  display: block;
+  max-width: 99%;
+  margin-bottom: 45px;
+  opacity: 0%;
+  transition: opacity 3.5s;
+}
+
+@media only screen and (max-width: 500px) {
+  .galBox {
+    margin-bottom: 90px;
+  }
+}
+
+.conBox {
+  display: block;
+  max-width: 99%;
+  margin-bottom: 45px;
+  padding: 10px;
+  opacity: 0%;
+  transition: opacity 3.5s;
+}
+
+.altTop {
+  display: block;
+  max-width: 100%;
+  margin-top: 35px;
+  margin-bottom: 45px;
+  padding 10px;
+}
+
+.conBox.alt {
+  display: block;
+  max-width: 99%;
+  margin-bottom: 45px;
+  padding: 25px;
+  opacity: 0;
+  transition: opacity 3.5s;
+  border-radius: 25px;
+  border: 2px solid #2a132a;
+  box-shadow: 5px 5px 8px #896e89;
+}
+
+.conBox h1 {
+  text-align: center;
+  font-family: "Copperplate", sans-serif;
+}
+
+.conBox p {
+  text-align: left;
+  font-family: "Didot", serif;
+}
+
+@media only screen and (max-width: 940px) {
+  .conBox h1 {
+    font-size: 1.75em;
+  }
+  .conBox p {
+    font-size: 1em;
+  }
+  .altTop {
+  margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .conBox h1 {
+    font-size: 1.25em;
+  }
+  .conBox p {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .conBox h1 {
+    font-size: 1em;
+  }
+  .conBox p {
+    font-size: .9em;
+  }
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 2px solid #381a38;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: "Didot", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 6px;
+  float: left;
+  width: 19.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 49.99%;
+  padding: 30px;
+  margin: 20px 0px;
+}
+
+.column img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+  }
+  .column img {
+    max-width: 50%;
+    float: right;
+    height: auto;
+  }
+}
