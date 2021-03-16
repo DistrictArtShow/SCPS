@@ -272,6 +272,12 @@ div.desc {
   width: 32.99999%;
 }
 
+.responsive-alt2 {
+  padding: 6px;
+  float: center;
+  width: 49.99999%;
+}
+
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
@@ -284,8 +290,15 @@ div.desc {
     width: 100%;
   }
 }
+
 @media only screen and (max-width: 500px) {
   .responsive-alt {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive-alt2 {
     width: 100%;
   }
 }
