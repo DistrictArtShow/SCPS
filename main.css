@@ -69,7 +69,8 @@ blockquote {
 
 .navbar {
   margin: auto;
-  font-size: 20px;
+  font-size: 22px;
+  font-family: 'Bangers';
   text-align: center;
   opacity: 0%;
   height: 60px;
