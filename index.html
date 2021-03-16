@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="main.css">
     <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
   </head>
-  <body>
+  <body onload="showMenu()">
     
     <div class="navbar" id="menu">
       <!-- The overlay -->
@@ -30,7 +30,7 @@
 <span onclick="openNav()">Welcome! Enter Here</span>
   
 </div>
-   <video autoplay muted id="bgVideo" onended="showMenu()">
+   <video autoplay muted id="bgVideo" >
       <source src="ArtShowWebIntro-Compressed.mp4" >
     </video> 
     
@@ -49,7 +49,7 @@
   document.getElementById("myNav").style.width = "0%";
 }
     function showMenu() {
-  document.getElementById("menu").style.opacity = "100%";
+  setTimeout(function(){document.getElementById("menu").style.opacity = "100%";},5000);
 }
   </script>
   </body>
