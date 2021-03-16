@@ -253,7 +253,7 @@ div.gallery {
 }
 
 div.gallery:hover {
-  border: 2px solid #381a38;
+  border: 1px solid #381a38;
 }
 
 div.gallery img {
