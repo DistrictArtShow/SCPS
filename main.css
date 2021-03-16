@@ -244,6 +244,8 @@ blockquote {
 
 div.gallery-con {
   max-width: 250px;
+  display: block;
+  float: center;
 }
 
 div.gallery {
