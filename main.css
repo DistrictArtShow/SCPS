@@ -242,6 +242,10 @@ blockquote {
   }
 }
 
+div.gallery-con {
+  max-width: 250px;
+}
+
 div.gallery {
   border: 1px solid #ccc;
 }
@@ -273,13 +277,13 @@ div.desc {
 .responsive-alt {
   padding: 6px;
   float: center;
-  width: 31.99999%;
+  width: 30%;
 }
 
 .responsive-alt2 {
   padding: 6px;
   float: center;
-  width: 48.99999%;
+  width: 45%;
 }
 
 @media only screen and (max-width: 700px) {
