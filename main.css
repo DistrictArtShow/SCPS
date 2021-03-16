@@ -84,12 +84,14 @@ blockquote {
 }
 
 .navbar a {
-  float: left;
+  float: center;
   color: white;
   font-size: 22px;
   font-family: 'Bangers';
   text-align: center;
   padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
   text-decoration: none;
   font-size: 22px;
 }
