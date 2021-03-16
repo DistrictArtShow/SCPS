@@ -246,6 +246,7 @@ div.gallery-con {
   max-width: 500px;
   display: block;
   margin: auto;
+  margin-top: 60px;
 }
 
 div.gallery {
