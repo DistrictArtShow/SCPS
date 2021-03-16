@@ -69,6 +69,8 @@ blockquote {
 .navbar {
   margin: auto;
   padding-top: 20px;
+  font-size: 22px;
+  font-family: 'Bangers';
   text-align: center;
   height: 60px;
   color: white;
@@ -81,7 +83,7 @@ blockquote {
   cursor: pointer;
 }
 
-.topnav a {
+.navbar a {
   float: left;
   color: white;
   font-size: 22px;
