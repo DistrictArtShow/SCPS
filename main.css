@@ -63,8 +63,7 @@ blockquote {
   max-width: 100%;
   margin: auto;
   position: relative;
-  opacity: 0%;
-  transition: opacity 3.5s
+  
 }
 
 .navbar {
@@ -73,7 +72,6 @@ blockquote {
   font-size: 22px;
   font-family: 'Bangers';
   text-align: center;
-  opacity: 0%;
   height: 60px;
   color: white;
   overflow: hidden;
@@ -82,6 +80,7 @@ blockquote {
   bottom: 0; 
   left: 0;
   width: 100%; /* Full width */
+  cursor: pointer;
 }
 
 /* Change background on mouse-over */
@@ -154,8 +153,7 @@ blockquote {
   display: block;
   max-width: 99%;
   margin-bottom: 45px;
-  opacity: 0%;
-  transition: opacity 3.5s;
+  
 }
 
 @media only screen and (max-width: 500px) {
@@ -169,8 +167,7 @@ blockquote {
   max-width: 99%;
   margin-bottom: 45px;
   padding: 10px;
-  opacity: 0%;
-  transition: opacity 3.5s;
+  
 }
 
 .altTop {
@@ -186,8 +183,7 @@ blockquote {
   max-width: 99%;
   margin-bottom: 45px;
   padding: 25px;
-  opacity: 0;
-  transition: opacity 3.5s;
+  
   border-radius: 25px;
   border: 2px solid #2a132a;
   box-shadow: 5px 5px 8px #896e89;
