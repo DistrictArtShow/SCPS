@@ -378,8 +378,8 @@ div.photos img {
   padding-top: 100px;
   left: 0;
   top: 0;
-  width: 100%;
-  height: 100%;
+  width: 65%;
+  height: auto;
   overflow: auto;
   background-color: black;
 }
@@ -391,7 +391,7 @@ div.photos img {
   margin: auto;
   padding: 0;
   width: 90%;
-  max-width: 1200px;
+  max-width: 900px;
 }
 
 /* The Close Button */
