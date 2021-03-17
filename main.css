@@ -75,7 +75,8 @@ blockquote {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
+  width: 300px;
+  height: auto;
   background-color: black;
   color: #fff;
   font-family: 'acme';
@@ -325,15 +326,14 @@ div.desc {
 }
 
 #photos {
-  padding-bottom: 15px;
-  margin-bottom: 90px;
-  line-height: 0;
+  padding-bottom: 65px;
+  line-height: 5px;
   -webkit-column-count: 5;
-  -webkit-column-gap:   3px;
+  -webkit-column-gap:   5px;
   -moz-column-count:    5;
-  -moz-column-gap:      3px;
+  -moz-column-gap:      5px;
   column-count:         5;
-  column-gap:           3px;  
+  column-gap:           5px;  
 }
 
 #photos img {
