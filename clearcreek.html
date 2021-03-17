@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SCPS District Art Exhibition - Clear Creek Elementary</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css">
+    <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+  </head>
+  <body id="showcase">
+    
+    <div class="navbar" id="menu">
+    <a href="about.html">About The Show</a>
+    <a href="schools.html">Schools</a>
+  </div>
+  <section id="photos">
+    <div class="tooltip"> <img src="Holder_001.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_002.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_003.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_004.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_005.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_006.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_007.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_008.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_009.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_010.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_011.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_012.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_013.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_014.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_015.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_016.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_017.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_018.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_019.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_020.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_021.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_022.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_023.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_024.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_025.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_026.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_027.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_028.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    <div class="tooltip"> <img src="Holder_029.jpg" alt=""> <span class="tooltiptext">East Middle</span></div>
+    </section>
+    
+ 
+    
+  <script>
+    function getRandomSize(min, max) {
+  return Math.round(Math.random() * (max - min) + min);
+}
+
+var allImages = "";
+
+for (var i = 0; i < 25; i++) {
+  var width = getRandomSize(200, 400);
+  var height =  getRandomSize(200, 400);
+  allImages += '<img src="https://placekitten.com/'+width+'/'+height+'" alt="pretty kitty">';
+}
+
+$('#photos').append(allImages);
+ 
+  </script>
+  </body>
+</html>
