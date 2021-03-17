@@ -282,6 +282,11 @@ blockquote {
   }
 }
 
+div.reGal-Box {
+  margin-top: 400px;
+  margin-bottom: 65px;
+}
+
 div.gallery-con {
   max-width: 500px;
   display: block;
@@ -369,7 +374,7 @@ div.desc {
 
 /* Slideshow container */
 .slideshow-container {
-  max-height: 600px;
+  max-height: 400px;
   max-width: 1000px;
   position: relative;
   margin: auto;
