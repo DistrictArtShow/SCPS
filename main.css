@@ -284,6 +284,11 @@ div.gallery-con {
   margin-top: 60px;
 }
 
+@media only screen and (max-width: 500px) {
+  max-width: 250px;
+}
+  
+
 div.gallery {
   border: 1px solid #ccc;
 }
