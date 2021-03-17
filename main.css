@@ -322,11 +322,11 @@ div.desc {
 #photos {
   line-height: 0;
   -webkit-column-count: 5;
-  -webkit-column-gap:   0px;
+  -webkit-column-gap:   3px;
   -moz-column-count:    5;
-  -moz-column-gap:      0px;
+  -moz-column-gap:      3px;
   column-count:         5;
-  column-gap:           0px;  
+  column-gap:           3px;  
 }
 
 #photos img {
