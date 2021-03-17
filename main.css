@@ -327,7 +327,7 @@ div.desc {
 
 div.photos {
   padding-bottom: 65px;
-  line-height: 5px;
+  line-height: 1.2;
   -webkit-column-count: 5;
   -webkit-column-gap:   5px;
   -moz-column-count:    5;
