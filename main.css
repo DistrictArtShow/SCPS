@@ -70,13 +70,13 @@ blockquote {
 
 .tooltip {
   position: relative;
-  display: inline-block;
+  display: block;
 }
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 300px;
-  height: auto;
+  width: 175px;
+  height: 35px;
   background-color: black;
   color: #fff;
   font-family: 'acme';
