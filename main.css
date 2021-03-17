@@ -16,6 +16,10 @@ body {
   background-size: 100%; /* Resize the background image to cover the entire container */
 }
 
+#showcase {
+  background-color: #1B1464;
+}
+
 #bgVideo {
   position: fixed;
   right: 0;
