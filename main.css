@@ -325,7 +325,7 @@ div.desc {
   box-sizing: border-box;
 }
 
-#photos {
+div.photos {
   padding-bottom: 65px;
   line-height: 5px;
   -webkit-column-count: 5;
