@@ -82,7 +82,8 @@ blockquote {
   font-family: 'acme';
   text-align: center;
   border-radius: 6px;
-  padding: 5px 0;
+  padding-top: 15px;
+  
   
   /* Position the tooltip */
   position: absolute;
@@ -375,7 +376,7 @@ div.photos img {
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin-bottom: 20px;
+  margin: auto;
 }
 
 /* Hide the images by default */
