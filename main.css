@@ -207,6 +207,7 @@ blockquote {
 @media only screen and (max-width: 500px) {
   .galBox {
     margin-bottom: 90px;
+    max-width: 50%;
   }
 }
 
