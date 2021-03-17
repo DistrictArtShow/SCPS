@@ -284,7 +284,7 @@ blockquote {
 }
 
 div.reGal-Box {
-  margin-top: 400px;
+  margin-top: auto;
   margin-bottom: 65px;
 }
 
@@ -326,14 +326,13 @@ div.desc {
 }
 
 div.photos {
-  padding-bottom: 65px;
-  line-height: 1.2;
+  line-height: 0;
   -webkit-column-count: 5;
-  -webkit-column-gap:   5px;
+  -webkit-column-gap:   3px;
   -moz-column-count:    5;
-  -moz-column-gap:      5px;
+  -moz-column-gap:      3px;
   column-count:         5;
-  column-gap:           5px;  
+  column-gap:           3px;  
 }
 
 #photos img {
@@ -374,10 +373,9 @@ div.photos {
 
 /* Slideshow container */
 .slideshow-container {
-  max-height: 400px;
   max-width: 1000px;
   position: relative;
-  margin: auto;
+  margin-bottom: 20px;
 }
 
 /* Hide the images by default */
