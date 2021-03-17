@@ -320,8 +320,8 @@ div.desc {
 }
 
 #photos {
-  padding-bottom: 60px;
-  margin-bottom: 60px;
+  padding-bottom: 15px;
+  margin-bottom: 90px;
   line-height: 0;
   -webkit-column-count: 5;
   -webkit-column-gap:   3px;
