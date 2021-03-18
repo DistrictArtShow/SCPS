@@ -382,6 +382,7 @@ div.photos img {
   height: 100%;
   overflow: auto;
   background-color: black;
+  margin-bottom: 80px;
 }
 
 /* Modal Content */
@@ -392,7 +393,7 @@ div.photos img {
   padding: 0;
   width: 90%;
   height: 90%;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 /* The Close Button */
