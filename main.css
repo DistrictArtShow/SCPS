@@ -409,6 +409,7 @@ div.photos img {
   position: relative;
   background-color: black;
   margin: auto;
+  margin-bottom: 80px;
   padding: 0;
   width: 90%;
   height: 90%;
