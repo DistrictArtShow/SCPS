@@ -545,11 +545,11 @@ div.photos img {
 
 /* Position the "next button" to the right */
 .next {
-  right: 30px;
+  right: -45px;
   border-radius: 3px 0 0 3px;
 }
 .prev {
-  left: -30px;
+  left: -45px;
   border-radius: 3px 0 0 3px;
 }
 
