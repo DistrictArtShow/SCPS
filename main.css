@@ -90,7 +90,7 @@ blockquote {
   z-index: 1;
   bottom: 0;
   left: 0;
-  margin-left: -10px;
+  margin-left: 10px;
 }
 
 .tooltip:hover .tooltiptext {
