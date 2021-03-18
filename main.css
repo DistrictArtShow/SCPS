@@ -378,8 +378,8 @@ div.photos img {
   padding-top: 100px;
   left: 0;
   top: 0;
-  width: 65%;
-  height: auto;
+  width: 100%;
+  height: 500px;
   overflow: auto;
   background-color: black;
 }
