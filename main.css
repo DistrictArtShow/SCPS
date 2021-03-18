@@ -133,7 +133,6 @@ blockquote {
   padding-right: 10px;
   padding-left: 10px;
   text-decoration: none;
-  font-size: 22px;
 }
 
 /* Change background on mouse-over */
@@ -284,6 +283,27 @@ blockquote {
   }
 }
 
+div.TiBan {
+  margin-top: 20px;
+  margin-bottom: 90px;
+  color: white;
+  font-size: 22px;
+  font-family: 'Bangers';
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+  max-width: 500px;
+}
+
+@media only screen and (max-width: 500px) {
+  .TiBan {
+  max-width: 250px;
+  margin: auto;
+  }
+}
+  
 div.reGal-Box {
   margin-top: 20px;
   margin-bottom: 90px;
