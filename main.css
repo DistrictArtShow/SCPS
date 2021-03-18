@@ -437,6 +437,7 @@ div.photos img {
   width: 90%;
   height: 90%;
   max-width: 750px;
+  max-height: 575px;
 }
 
 /* The Close Button */
