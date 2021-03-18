@@ -297,11 +297,30 @@ div.gallery-con {
 }
 
 @media only screen and (max-width: 500px) {
+  .galery-con {
   max-width: 250px;
   margin: auto;
+  }
 }
   
+div.reGallery-con {
+  max-width: 900px;
+  display: block;
+  margin: auto;
+  margin-top: 45px;
+}
 
+@media only screen and (max-width: 900px) {
+  .reGallery-con {
+    max-width: 450px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .reGallery-con {
+    max-width: 300px;
+  }
+}
 div.gallery {
   border: 1px solid #ccc;
 }
