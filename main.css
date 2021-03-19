@@ -387,6 +387,19 @@ div.gallery-con {
   margin: auto;
   }
 }
+
+div.school-con {
+  max-width: 500px;
+  display: block;
+  right: 0;
+  margin-top: 60px;
+  margin-right: 50px;
+}
+@media only screen and (max-width: 500px) {
+  .school-con {
+    max-width: 250px;
+  }
+}
   
 div.reGallery-con {
   max-width: 900px;
