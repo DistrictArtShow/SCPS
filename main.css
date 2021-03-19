@@ -161,6 +161,32 @@ blockquote {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
+.tooltip .tooltiptext-alt {
+  visibility: hidden;
+  width: 175px;
+  height: 30px;
+  background-color: black;
+  color: #fff;
+  font-family: 'acme';
+  text-align: center;
+  border-radius: 6px;
+  padding-top: 5px;
+  overflow: auto;
+  
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  margin-left: 0;
+}
+
+.tooltip:hover .tooltiptext-alt {
+  visibility: visible;
+}
+
 .hero-image img{
   display: block;
   max-height 100%;
