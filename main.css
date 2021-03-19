@@ -462,8 +462,7 @@ div.gallery {
 
 div.gallery:hover {
   border-radius: 25px;
-  background-color: black;
-  opacity: 15%;
+  border: 1px solid #73AD21;
 }
 
 div.gallery img {
