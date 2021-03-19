@@ -395,6 +395,8 @@ div.TiBan {
   padding-left: 10px;
   text-decoration: none;
   max-width: 500px;
+  position: fixed;
+  top: 0;
 }
 
 @media only screen and (max-width: 500px) {
