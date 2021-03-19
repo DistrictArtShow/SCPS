@@ -10,7 +10,7 @@ body {
 }
 
 #schools {
-  background-image: url("BG-Full.jpg");
+  background-image: url("BG-MAIN.jpg");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: 100%; /* Resize the background image to cover the entire container */
