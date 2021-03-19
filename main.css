@@ -423,11 +423,11 @@ div.reGallery-con {
   }
 }
 div.gallery {
-  border: 1px solid #ccc;
 }
 
 div.gallery:hover {
-  border: 1px solid #381a38;
+  background-color: black;
+  opacity: 45%;
 }
 
 div.gallery img {
