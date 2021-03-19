@@ -139,14 +139,14 @@ blockquote {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 175px;
+  width: 150px;
   height: 35px;
   background-color: black;
   color: #fff;
   font-family: 'acme';
   text-align: center;
   border-radius: 6px;
-  padding-top: 15px;
+  padding-top: 5px;
   
   
   /* Position the tooltip */
