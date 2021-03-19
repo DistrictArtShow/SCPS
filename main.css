@@ -118,6 +118,13 @@ blockquote {
   text-align: right;
 }
 
+ #90 img {
+   transform: rotate(90deg);
+}
+#270 img {
+  transform: rotate(270deg);
+}
+
 .top {
   max-width: 95%;
   text-align: center;
