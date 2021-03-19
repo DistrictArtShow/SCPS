@@ -147,6 +147,7 @@ blockquote {
   text-align: center;
   border-radius: 6px;
   padding-top: 5px;
+  overflow: hidden;
   
   
   /* Position the tooltip */
