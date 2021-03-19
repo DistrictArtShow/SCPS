@@ -452,14 +452,15 @@ div.gallery {
 }
 
 div.gallery:hover {
-  background-color: black;
-  opacity: 45%;
+  width: 105%;
+  height: auto;
 }
 
 div.gallery img {
   width: 100%;
   height: auto;
   z-index: -9;
+  transition: width .5s;
 }
 
 div.desc {
