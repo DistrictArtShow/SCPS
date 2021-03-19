@@ -146,15 +146,15 @@ blockquote {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 150px;
-  height: 55px;
+  width: 175px;
+  height: 30px;
   background-color: black;
   color: #fff;
   font-family: 'acme';
   text-align: center;
   border-radius: 6px;
   padding-top: 5px;
-  overflow: hidden;
+  overflow: auto;
   
   
   /* Position the tooltip */
@@ -459,8 +459,9 @@ div.gallery {
 }
 
 div.gallery:hover {
-  width: 98%;
-  height: auto;
+  border-radius: 25px;
+  background-color: white;
+  opacity: 35%;
 }
 
 div.gallery img {
