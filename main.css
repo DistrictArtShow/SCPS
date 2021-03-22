@@ -392,11 +392,6 @@ div.TiBan {
   margin-top: 10px;
   margin-bottom: 30px;
   background-color: black;
-  color: white;
-  font-size: 45px;
-  font-family: 'Bangers';
-  text-align: center;
-  text-decoration: none;
   width: 95%;
   height: 75px;
   position: sticky;
@@ -405,6 +400,15 @@ div.TiBan {
   top: 0;
   left: 0;
   z-index: 100;
+}
+div.tiBan-words {
+  color: white;
+  font-size: 45px;
+  font-family: 'Bangers';
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  z-index: 150;
 }
 
 @media only screen and (max-width: 500px) {
