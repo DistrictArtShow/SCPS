@@ -1,23 +1,35 @@
-.bgimg-1 {
-  background-img: url("BG-Far-01.png");
-  min-height: 100%;
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective-origin-x: 100%;
 }
-
-.bgimg-2 {
-background-image: url("BG-Mid-02 copy.png");
-    min-height: 400px;
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform-origin-x: 100%;
 }
-
-.bgimg-2 {
-background-image: url("BG-For-02.png");
-    min-height: 400px;
+.parallax__layer--base {
+  background-image: url("BG-For-02.png");
+  width: auto;
+  height: 900px;
+  transform: translateZ(0);
 }
-
-.bgimg-1, .bgimg-2, .bgimg-3 {
-    position: relative;
-    opacity: 0.65;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.parallax__layer--back {
+  background-image: url("BG-Mid-02 copy.png");
+  width: auto;
+  height: 900px;
+  transform: translateZ(-1px) scale(2);
+}
+body {
+  background-image: url("BG-Far-01.png");
+}
+.parallax__group {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
 }
