@@ -455,10 +455,7 @@ div.reGallery-con {
   }
 }
 div.gallery {
-}
-
-div.gallery:hover {
-  cursor:url(brush-cursor.png), auto;
+  cursor:url("brush-cursor.png"), auto;
 }
 
 div.gallery img {
