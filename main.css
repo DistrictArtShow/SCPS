@@ -399,10 +399,12 @@ div.TiBan {
   text-decoration: none;
   width: 100%;
   height: 75px;
-  position: fixed;
+  position: sticky;
+  position: -webkit-sticky;
   border-radius: 25px 50px;
   top: 0;
   left: 0;
+  z-index: 100;
 }
 
 @media only screen and (max-width: 500px) {
@@ -451,9 +453,8 @@ div.reGallery-con {
   border-radius: 25px;
   max-width: 900px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 80px;
+  margin: auto;
+  padding-top: 100px;
 }
 
 @media only screen and (max-width: 900px) {
