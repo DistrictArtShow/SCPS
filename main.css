@@ -447,6 +447,8 @@ div.school-con {
 }
   
 div.reGallery-con {
+  background-color: black;
+  border-radius: 25px;
   max-width: 900px;
   display: block;
   margin-left: auto;
