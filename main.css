@@ -457,7 +457,7 @@ div.reGallery-con {
   }
 }
 div.gallery {
-  cursor:url("brush-cursor.png"), auto;
+  cursor:url('brush-cursor.png'), auto;
 }
 
 div.gallery img {
@@ -475,7 +475,6 @@ div.desc {
 }
 
 div.photos {
-  cursor:url("brush-cursor.png"), auto;
   line-height: 1.1;
   -webkit-column-count: 5;
   -webkit-column-gap:   3px;
