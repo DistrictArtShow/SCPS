@@ -414,8 +414,7 @@ div.reGal-Box {
 div.gallery-con {
   max-width: 500px;
   display: block;
-  margin: auto;
-  margin-top: 60px;
+  margin-top: 90px;
 }
 
 @media only screen and (max-width: 500px) {
