@@ -33,6 +33,7 @@ div.bgMID {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+  z-index: 20;
 }
 
 div.bgFOR {
@@ -40,6 +41,7 @@ div.bgFOR {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+  z-index: 40;
 }
 
 #ss {
