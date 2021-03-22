@@ -458,15 +458,11 @@ div.gallery {
 }
 
 div.gallery:hover {
-  border-radius: 25px;
-  border: 1px solid #73AD21;
+  cursor:url(brush-cursor.png), auto;
 }
 
 div.gallery img {
-  width: 100%;
-  height: auto;
   z-index: -9;
-  transition: width .5s;
 }
 
 div.desc {
