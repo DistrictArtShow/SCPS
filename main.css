@@ -412,7 +412,8 @@ div.TiBan {
 }
   
 div.reGal-Box {
-  right: 0;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 125px;
   margin-bottom: 45px;
 }
@@ -447,7 +448,8 @@ div.school-con {
 div.reGallery-con {
   max-width: 900px;
   display: block;
-  right: 0;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 80px;
 }
 
@@ -463,7 +465,7 @@ div.reGallery-con {
   }
 }
 div.gallery {
-  cursor:url('brush-cursor.cur'), auto;
+  cursor:url("https://github.com/DistrictArtShow/SCPS/blob/main/brush-cursor.png?raw=true"), auto;
 }
 
 div.gallery img {
