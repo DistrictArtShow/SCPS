@@ -389,6 +389,8 @@ blockquote {
 
 div.TiBan {
   margin-top: 10px;
+  margin-bottom: 30px;
+  background-color: black;
   color: white;
   font-size: 45px;
   font-family: 'Bangers';
