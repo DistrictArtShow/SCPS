@@ -388,24 +388,21 @@ blockquote {
 
 div.TiBan {
   margin:auto;
-  background-color: black;
   width: 95%;
   height: 75px;
-  position: sticky;
-  position: -webkit-sticky;
+  position: relative;
   border-radius: 10px 50px;
   top: 0;
   left: 0;
-  z-index: 100;
-}
-div.tiBan-words {
   color: white;
   font-size: 45px;
   font-family: 'Bangers';
   text-align: center;
   text-decoration: none;
-  margin: auto;
   z-index: 150;
+}
+div.tiBan-words {
+  
 }
 
 @media only screen and (max-width: 500px) {
