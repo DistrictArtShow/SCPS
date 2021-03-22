@@ -399,7 +399,7 @@ div.TiBan {
   font-family: 'Bangers';
   text-align: center;
   text-decoration: none;
-  z-index: 150;
+  z-index: -2;
 }
 div.tiBan-words {
   
