@@ -457,7 +457,7 @@ div.reGallery-con {
   }
 }
 div.gallery {
-  cursor:url('brush-cursor.png'), auto;
+  cursor:url('brush-cursor.cur'), auto;
 }
 
 div.gallery img {
