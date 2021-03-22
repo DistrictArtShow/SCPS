@@ -382,33 +382,30 @@ blockquote {
 }
 
 div.TiBan {
-  margin-top: 20px;
-  margin-bottom: 90px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 10px;
   color: white;
   font-size: 45px;
   font-family: 'Bangers';
   text-align: center;
-  padding-top: 20px;
-  padding-right: 10px;
-  padding-left: 10px;
   text-decoration: none;
-  max-width: 500px;
+  width: 400px;
+  height: 50px;
   position: fixed;
   top: 0;
+  right: 0;
 }
 
 @media only screen and (max-width: 500px) {
   .TiBan {
-  max-width: 250px;
+  width: 250px;
   margin: auto;
   }
 }
   
 div.reGal-Box {
-  margin-top: 20px;
-  margin-bottom: 90px;
+  right: 0;
+  margin-top: 80px;
+  margin-bottom: 45px;
 }
 
 div.gallery-con {
@@ -442,8 +439,8 @@ div.school-con {
 div.reGallery-con {
   max-width: 900px;
   display: block;
-  margin: auto;
-  margin-top: 45px;
+  right: 0;
+  margin-top: 80px;
 }
 
 @media only screen and (max-width: 900px) {
