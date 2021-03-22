@@ -468,8 +468,8 @@ div.reGallery-con {
     max-width: 300px;
   }
 }
-div.gallery {
-  cursor:url("https://github.com/DistrictArtShow/SCPS/blob/main/brush-cursor.png?raw=true"), auto;
+div.gallery a{
+  cursor:url("brush-cursor.cur"), pointer;
 }
 
 div.gallery img {
