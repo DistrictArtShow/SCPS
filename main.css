@@ -21,25 +21,25 @@ body {
   background-color: #1B1464;
 }
 
-#cce {
-  background-image: url("CCE-BG.jpg");
+#sbg {
+  background-image: url("BG-Far-01.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: 100%; /* Resize the background image to cover the entire container */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-#he {
-  background-image: url("HE-BG.jpg");
+div.bgMID {
+  background-image: url("BG-Mid-02 copy.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: 100%; /* Resize the background image to cover the entire container */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-#pse {
-  background-image: url("PSE-BG.jpg");
+div.bgFOR {
+  background-image: url("BG-For-02.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: 100%; /* Resize the background image to cover the entire container */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 #ss {
