@@ -19,7 +19,7 @@ body {
   background-color: #1B1464;
 }
 
-#sbg {
+.sbg {
   background-image: url("BG-Far-01.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
