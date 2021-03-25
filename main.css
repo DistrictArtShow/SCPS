@@ -113,6 +113,14 @@ body {
   text-shadow: 4px 2px 10px #000000;
 }
 
+.left ol {
+  font-family: 'Acme';
+  font-size: 1.5em;
+  font-style: italic;
+  color: white;
+  text-shadow: 4px 2px 10px #000000;
+}
+
 .left p:before {
   content: ' \275D';
 }
