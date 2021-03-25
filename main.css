@@ -67,30 +67,6 @@ body {
     position: absolute;
   }
 }
-@media only screen and (max-width: 1200px) {
-  iframe {
-    width: 80%;
-    height: 80%;
-  }
-}
-@media only screen and (max-width: 800px) {
-  iframe {
-    width: 60%;
-    height: 60%;
-  }
-}
-@media only screen and (max-width: 600px) {
-  iframe {
-    width: 40%;
-    height: 40%;
-  }
-}
-@media only screen and (max-width: 500px) {
-  iframe {
-    width: 90%;
-    height: 90%;
-  }
-}
 
 #schools {
   background-image: url("BG-MAIN.jpg");
@@ -130,20 +106,20 @@ body {
 @media only screen and (max-width: 900px) {
   .left p {
     font-size: 1.25em;
-    text-alight: left;
+    text-align: left;
   }
   . left ol {
-    font-size .75em;
+    font-size: 1em;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .left p {
     font-size: .75em;
-    text-alight: left;
+    text-align: left;
   }
   . left ol {
-    font-size .65em;
+    font-size: .65em;
   }
 }
 
