@@ -7,6 +7,26 @@ body {
   z-index: -100;
 }
 
+.left {
+  background-image: url("BG-Far-01.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  top: 0;
+  position: fixed;
+  width: 30%;
+  height: auto;
+  min-width: 150px;
+}
+
+.right {
+  float: right;
+  top: 0;
+  position: relative;
+  background-color: #E8DBC5;
+}
+
 #schools {
   background-image: url("BG-MAIN.jpg");
   height: 768px;
