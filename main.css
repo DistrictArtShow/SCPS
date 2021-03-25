@@ -39,77 +39,11 @@ body {
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-#showcase {
-  background-color: #1B1464;
-}
-
-.sbg {
-  background-image: url("BG-Far-01.png");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-}
-
-div.bgMID {
-  background-image: url("BG-Mid-02 copy.png");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  width: 1280px;
-  height: auto;
-  z-index: 20;
-}
-
-div.bgFOR {
-  background-image: url("BG-For-02.png");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  width: 1280px;
-  height: auto;
-  z-index: 40;
-}
-
-#ss {
-  background-image: url("SS-BG.jpg");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: 100%; /* Resize the background image to cover the entire container */
-}
-
-#mcm {
-  background-image: url("MCM-BG.jpg");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: 100%; /* Resize the background image to cover the entire container */
-}
-
-#ems {
-  background-image: url("EMS-BG.jpg");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: 100%; /* Resize the background image to cover the entire container */
-}
-
-#wms {
-  background-image: url("WMS-BG.jpg");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: 100%; /* Resize the background image to cover the entire container */
-}
-
-#schs {
-  background-image: url("SCHS-BG.jpg");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: 100%; /* Resize the background image to cover the entire container */
-}
-
-#chs {
-  background-image: url("CHS-BG.jpg");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: 100%; /* Resize the background image to cover the entire container */
+.left h1 {
+  font-family: 'Bangers';
+  font-size: 2.5em;
+  text-align: center;
+  color: #AB5349;
 }
 
 #bgVideo {
