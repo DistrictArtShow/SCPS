@@ -135,6 +135,9 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
+  .left h1 {
+    font-size: 1.75em;
+  }
   .left p {
     opacity: 0%;
   }
