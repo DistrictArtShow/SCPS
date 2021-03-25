@@ -13,12 +13,58 @@
      <div class="navbar" id="menu">
     <a href="about.html">About The Show</a>
     <a href="schools.html">Schools</a>
-  </div>
-    <div style="height:3000px">
+  
+    </div class="about-con" style="height:10000px">
+    <div class="about-con-left">
+      <div class="about-left" id="left1">
+        <p>It all started with a big idea and an Art 4 class... </p>
+      </div>
+    </div>
+    <div class="about-con-right" id="right1">
+      <div class="about-right">
+        <p>Mr. C's Art 4 class planned the show, procured the space, and currated the event...</p>
+      </div>
+    </div>
+    <div class="about-con-left">
+      <div class="about-left">
+        <p>The night of the big event hundreds of Shelby County residents came to see the 1st annual SCPS District Art Show...</p>
+      </div>
+    </div>
+    <div class="about-con-right">
+      <div class="about-right">
+        <p>Plans were already in motion for the next year's showcase...</p>
+      </div>
+    </div>
+    <div class="about-con-left">
+    <div class="about-left">
+        <p>Then the Covid-19 Pandemic hit and changed everything...</p>
+      </div>
+    </div>
+    <div class="about-con-right">
+      <div class="about-right">
+        <p>When we finally left NTI and came back to school in October, things were hopeful, but it was apparent that an in-person show wasn't going to happen...</p>
+      </div>
+    </div>
+    <div class="about-con-left">
+    <div class="about-left">
+        <p>Out of necessity, the 1st ever Virtual All District Art Show was born...</p>
+      </div>
+    </div>
+    <div class="about-con-right">
+      <div class="about-right">
+        <p>We sincerely hope you enjoy the artwork your loved ones have created this year.</p>
+      </div>
+    </div>
     </div>
     
   <script>
-  
+  var left1 = document.getElementById("left1"),
+right1 = document.getElementById("right1");
+    
+window.addEventListener("scroll", function() {
+    left1.style.transform = "rotate("+window.pageYOffset+"deg)";
+    right1.style.transform = "rotate(-"+window.pageYOffset+"deg)";
+});
   </script>
   </body>
 </html>
