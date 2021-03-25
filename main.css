@@ -95,7 +95,6 @@ body {
 }
 
 .video-frame {
-  position: fixed;
   width: 90%;
   height: 90%;
   margin-top: auto;
