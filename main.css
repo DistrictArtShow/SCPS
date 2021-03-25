@@ -126,13 +126,24 @@ body {
   text-shadow: 4px 2px 10px #000000;
 }
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 900px) {
   .left p {
-    font-size: 1em;
+    font-size: 1.25em;
     text-alight: left;
   }
   . left ol {
-    font-size 1em;
+    font-size .75em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .left p {
+    font-size: .75em;
+    text-alight: left;
+  }
+  . left ol {
+    font-size .65em;
   }
 }
 
