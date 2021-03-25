@@ -1,5 +1,5 @@
 body {
-  background-color: #dae7ff;
+  background-color: #FFF4E9;
   background-position: center;
   background-attachment: fixed;
   height: 100%;
@@ -8,7 +8,7 @@ body {
 }
 
 .left {
-  background-image: url("BG-Far-01.png");
+  background-color: #6A87A3;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,7 +35,6 @@ body {
   height: auto;
   min-width: 250px;
   position: relative;
-  background-color: #E8DBC5;
   margin-bottom: 60px;
 }
 
