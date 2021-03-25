@@ -73,10 +73,16 @@ body {
     height: 384px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   iframe {
     width: 432px;
     height: 288px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  iframe {
+    width: 288px;
+    height: 192px;
   }
 }
 
