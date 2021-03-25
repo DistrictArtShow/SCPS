@@ -69,20 +69,20 @@ body {
 }
 @media only screen and (max-width: 1200px) {
   iframe {
-    width: 576px;
-    height: 384px;
+    width: 40%;
+    height: 40%;
   }
 }
 @media only screen and (max-width: 800px) {
   iframe {
-    width: 432px;
-    height: 288px;
+    width: 30%;
+    height: 30%;
   }
 }
 @media only screen and (max-width: 600px) {
   iframe {
-    width: 288px;
-    height: 192px;
+    width: 20%;
+    height: 20%;
   }
 }
 
