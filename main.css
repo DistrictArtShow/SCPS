@@ -67,6 +67,18 @@ body {
     position: absolute;
   }
 }
+@media only screen and (max-width: 1200px) {
+  iframe {
+    width: 576px;
+    height: 384px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  iframe {
+    width: 432px;
+    height: 288px;
+  }
+}
 
 #schools {
   background-image: url("BG-MAIN.jpg");
