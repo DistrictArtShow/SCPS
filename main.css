@@ -87,13 +87,14 @@ body {
 
 .left p {
   font-family: 'Acme';
-  font-size: 1.5em;
+  font-size: 2em;
   font-style: italic;
   padding: 20px;
-  text-align: center;
+  text-align: justify;
   color: white;
   text-shadow: 4px 2px 10px #000000;
 }
+
 .left p:before {
   content: ' \275D';
 }
