@@ -123,6 +123,15 @@ body {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .left p {
+    opacity: 0%;
+  }
+  .left ol {
+    opacity: 0%;
+  }
+}
+
 .left p:before {
   content: ' \275D';
 }
