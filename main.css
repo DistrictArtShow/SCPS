@@ -6,7 +6,9 @@ body {
   width: 100%;
   z-index: -100;
 }
-
+#body-about {
+  background: linear-gradient(150deg, #4F5354 0%, #6A87A3 51%, #AB5349 75%);
+}
 .left {
   background-color: #6A87A3;
   background-position: center;
