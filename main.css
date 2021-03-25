@@ -163,10 +163,9 @@ body {
 }
 
 .video-frame {
-  position: fixed;
   width: 90%;
   height: 90%;
-  margin-top: 60px;
+  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 80px;
