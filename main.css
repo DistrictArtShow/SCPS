@@ -106,7 +106,7 @@ body {
 
 @media only screen and (max-width: 900px) {
   .left p {
-    font-size: 2em;
+    font-size: 1.75em;
     text-align: left;
   }
   .left ol {
@@ -116,7 +116,7 @@ body {
 
 @media only screen and (max-width: 750px) {
   .left p {
-    font-size: 1.75em;
+    font-size: 1.5em;
   }
   .left ol {
     font-size: 1.5em;
@@ -125,11 +125,11 @@ body {
 
 @media only screen and (max-width: 600px) {
   .left p {
-    font-size: 1.5em;
+    font-size: 1.25em;
     text-align: left;
   }
   .left ol {
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
 }
 
