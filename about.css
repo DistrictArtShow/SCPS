@@ -1,5 +1,6 @@
 body {
   background: linear-gradient(150deg, #4F5354 0%, #6A87A3 51%, #AB5349 75%);
+  overflow-x: hidden;
 }
 
 p {
