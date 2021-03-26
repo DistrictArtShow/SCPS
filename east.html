@@ -8,7 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
   </head>
-  <body class="sbg" onload="loaded()">
+  <body class="sbg" onload="appear()">
     
     <div class="navbar" id="menu">
     <a href="about.html">About The Show</a>
@@ -362,8 +362,9 @@
  
     
   <script>
-    function getElementById("right") {
-      right.style.opacity = 100%;
+    function appear(){
+    document.getElementById("right").style.opacity = 100%;
+    document.getElementById("left").style.opacity = 100%;
     }
     function getRandomSize(min, max) {
   return Math.round(Math.random() * (max - min) + min);
