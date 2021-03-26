@@ -71,7 +71,7 @@ div.one {
   padding: 40px;
   margin-top: 500px;
   margin-bottom: 100px;
-  margin-right: -100px;
+  margin-right: -400px;
   margin-left: 30%;
   transition: transform 5s ease;
   box-shadow: 4px 2px 10px #000000;
@@ -83,7 +83,7 @@ div.two {
   margin-top: 500px;
   margin-bottom: 100px;
   margin-right: 30%;
-  margin-left: -100px;
+  margin-left: -400px;
   transition: transform 5s ease;
   box-shadow: 4px 2px 10px #000000;
 }
