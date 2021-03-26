@@ -15,12 +15,12 @@ body {
   margin-bottom: 60px;
 }
 .about-con-left {
-  left: 0;
+  left: -50;
   width: 60%;
   margin-top: 60px;
 }
 .about-con-right {
-  right: 0;
+  right: -50;
   width: 60%;
   margin-top: 60px;
 }
@@ -45,7 +45,7 @@ body {
 }
 .about-right {
   background-color: #FFF4E9;
-  float: left;
+  float: right;
   margin-left: auto;
   margin-right: auto;
   border-radius: 25px;
