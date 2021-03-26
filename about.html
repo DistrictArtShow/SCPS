@@ -17,6 +17,10 @@
     
     
 <div style="height:10000px">
+  <div class="headtop" id="head">
+    Scroll down to read the origin story of our Art Show
+  </div>
+  
 <div class="one" id="right1">
   <div class="inner-right">
     <p>It all started with a big idea and an Art 4 class... </p>
@@ -76,6 +80,7 @@ left3 = document.getElementById("left3"),
 right3 = document.getElementById("right3"),
 left4 = document.getElementById("left4"),
 right4 = document.getElementById("right4"),
+head = document.getElementById("head"),
 multiplier = .05,
 rotR1 = right1.offsetTop -100,
 rotL1 = left1.offsetTop -200,
@@ -84,7 +89,8 @@ rotL2 = left2.offsetTop -200,
 rotR3 = right3.offsetTop -200,
 rotL3 = left3.offsetTop -200,
 rotR4 = right4.offsetTop -200,
-rotL4 = left4.offsetTop -200;
+rotL4 = left4.offsetTop -200,
+opH = head.offsetTop;
 
     
     
@@ -104,7 +110,16 @@ rotL4 = left4.offsetTop -200;
     };
     throttle ("scroll", "optimizedScroll");
 })();
-    
+window.addEventListener("optimizedScroll", function() {
+  if(window.pageYOffset >= opH){
+    head.style.width = "300%";
+    head.style.opacity = "0%";}
+  else if (window.pageYOffset <= opH){
+    head.style.width = "100%";
+    head.style.opacity = "100%";}
+  else {head.style.width = "100%";
+    head.style.opacity = "100%";}
+});
 window.addEventListener("optimizedScroll", function() {
 if (window.pageYOffset >= rotR1){
     right1.style.transition = "transform 5s ease";
