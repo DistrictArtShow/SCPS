@@ -14,7 +14,7 @@ p {
 }
 @media only screen and (max-width: 500px){
   p {
-    font-size: .75em;
+    font-size: 1em;
   }
 }
 .navbar {
@@ -102,9 +102,11 @@ div.two {
 @media only screen and (max-width: 800px) {
   .one {
     margin-right:-200px;
+    padding-right: 300px;
   }
   .two {
     margin-left:-200px;
+    padding-left: 300px;
   }
 }
 @media only screen and (max-width: 500px) {
