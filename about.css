@@ -54,58 +54,38 @@ body {
   text-shadow: 4px 2px 10px #000000;
 } 
 
-#body-about {
-  background: linear-gradient(150deg, #4F5354 0%, #6A87A3 51%, #AB5349 75%);
+.navbar {
+  margin: auto;
+  padding-top: 20px;
+  font-size: 22px;
+  font-family: 'Bangers';
+  text-align: center;
+  height: 60px;
+  color: white;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  bottom: 0; 
+  left: 0;
+  width: 100%; /* Full width */
+  cursor: pointer;
+  z-index: 99;
 }
 
-.about-con {
-  margin-top: 110px;
-  margin-bottom: 60px;
-}
-.about-con-left {
-  left: -50;
-  width: 60%;
-  margin-top: 60px;
-}
-.about-con-right {
-  right: -50;
-  width: 60%;
-  margin-top: 60px;
+.navbar a {
+  float: center;
+  color: white;
+  font-size: 22px;
+  font-family: 'Bangers';
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-decoration: none;
 }
 
-.about-left {
-  background-color: #FFF4E9;
-  float: left;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 25px;
-  box-shadow: 4px 2px 10px #000000;
-  width: 90%;
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
 }
-.about-left p {
-  font-family: 'Acme';
-  font-size: 3em;
-  font-style: italic;
-  padding: 20px;
-  text-align: center;
-  color: white;
-  text-shadow: 4px 2px 10px #000000;
-}
-.about-right {
-  background-color: #FFF4E9;
-  float: right;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 25px;
-  box-shadow: 4px 2px 10px #000000;
-  width: 90%;
-}
-.about-right p {
-  font-family: 'Acme';
-  font-size: 3em;
-  font-style: italic;
-  padding: 20px;
-  text-align: center;
-  color: white;
-  text-shadow: 4px 2px 10px #000000;
-} 
