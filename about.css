@@ -1,35 +1,111 @@
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  perspective-origin-x: 100%;
-}
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform-origin-x: 100%;
-}
-.parallax__layer--base {
-  background-image: url("BG-For-02.png");
-  width: auto;
-  height: 900px;
-  transform: translateZ(0);
-}
-.parallax__layer--back {
-  background-image: url("BG-Mid-02 copy.png");
-  width: auto;
-  height: 900px;
-  transform: translateZ(-1px) scale(2);
-}
 body {
-  background-image: url("BG-Far-01.png");
+  background: linear-gradient(150deg, #4F5354 0%, #6A87A3 51%, #AB5349 75%);
 }
-.parallax__group {
-  position: relative;
-  height: 100vh;
-  transform-style: preserve-3d;
+
+.about-con {
+  margin-top: 110px;
+  margin-bottom: 60px;
 }
+.about-con-left {
+  left: -50;
+  width: 60%;
+  margin-top: 60px;
+}
+.about-con-right {
+  right: -50;
+  width: 60%;
+  margin-top: 60px;
+}
+
+.about-left {
+  background-color: #FFF4E9;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  box-shadow: 4px 2px 10px #000000;
+  width: 90%;
+}
+.about-left p {
+  font-family: 'Acme';
+  font-size: 3em;
+  font-style: italic;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  text-shadow: 4px 2px 10px #000000;
+}
+.about-right {
+  background-color: #FFF4E9;
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  box-shadow: 4px 2px 10px #000000;
+  width: 90%;
+}
+.about-right p {
+  font-family: 'Acme';
+  font-size: 3em;
+  font-style: italic;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  text-shadow: 4px 2px 10px #000000;
+} 
+
+#body-about {
+  background: linear-gradient(150deg, #4F5354 0%, #6A87A3 51%, #AB5349 75%);
+}
+
+.about-con {
+  margin-top: 110px;
+  margin-bottom: 60px;
+}
+.about-con-left {
+  left: -50;
+  width: 60%;
+  margin-top: 60px;
+}
+.about-con-right {
+  right: -50;
+  width: 60%;
+  margin-top: 60px;
+}
+
+.about-left {
+  background-color: #FFF4E9;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  box-shadow: 4px 2px 10px #000000;
+  width: 90%;
+}
+.about-left p {
+  font-family: 'Acme';
+  font-size: 3em;
+  font-style: italic;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  text-shadow: 4px 2px 10px #000000;
+}
+.about-right {
+  background-color: #FFF4E9;
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  box-shadow: 4px 2px 10px #000000;
+  width: 90%;
+}
+.about-right p {
+  font-family: 'Acme';
+  font-size: 3em;
+  font-style: italic;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  text-shadow: 4px 2px 10px #000000;
+} 
