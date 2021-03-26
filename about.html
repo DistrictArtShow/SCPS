@@ -16,58 +16,46 @@
     </div>
     
     
-<div style="height:7200px">
+<div style="height:6200px">
   <div class="headtop" id="head">
     Scroll down to read the origin story of our Art Show
   </div>
   
 <div class="one" id="right1">
   <div class="inner-right">
-    <p>It all started with a big idea and an Art 4 class... </p>
+    <p>It all started with a big idea. Mr C's Art 4 class planned, procured a space, and curated the event...</p>
   </div>
 </div>
 
 <div class="two" id="left1">
   <div class="inner-left">
-    <p>Mr. C's Art 4 class planned the show, procured the space, and currated the event...</p>
+    <p>The night of the big event, hundreds of Shelby County residents came to see the 1st annual SCPS District Art Show...</p>
   </div>
 </div>
 
 <div class="one" id="right2">
   <div class="inner-right">
-    <p>The night of the big event hundreds of Shelby County residents came to see the 1st annual SCPS District Art Show...</p>
+    <p>Plans were already in motion for the next year's showcase. Then the Covid-19 Pandemic hit and changed everything...</p>
   </div>
 </div>
 
 <div class="two" id="left2">
   <div class="inner-left">
-    <p>Plans were already in motion for the next year's showcase...</p>
+    <p>When we finally left NTI and came back to school in October, things were hopeful, but it was apparent that an in-person show wasn't going to happen...</p>
   </div>
 </div>
 
 <div class="one" id="right3">
   <div class="inner-right">
-    <p>Then the Covid-19 Pandemic hit and changed everything...</p>
+    <p>Out of necessity, the 1st ever Virtual District Art Show was born...</p>
   </div>
 </div>
       
 <div class="two" id="left3">
   <div class="inner-left">
-    <p>When we finally left NTI and came back to school in October, things were hopeful, but it was apparent that an in-person show wasn't going to happen...</p>
+    <p>We sincerely hope you enjoy the artwork your loved ones have created this year!</p>
   </div>
 </div>
- 
- <div class="one" id="right4">
-  <div class="inner-right">
-    <p>Out of necessity, the 1st ever Virtual All District Art Show was born...</p>
-  </div>
-    </div>
-      
-<div class="two" id="left4">
-  <div class="inner-left">
-    <p>We sincerely hope you enjoy the artwork your loved ones have created this year.</p>
-  </div>
-    </div>     
     </div>
     
     
@@ -78,8 +66,6 @@ left2 = document.getElementById("left2"),
 right2 = document.getElementById("right2"),
 left3 = document.getElementById("left3"),
 right3 = document.getElementById("right3"),
-left4 = document.getElementById("left4"),
-right4 = document.getElementById("right4"),
 head = document.getElementById("head"),
 multiplier = .05,
 rotR1 = right1.offsetTop -200,
@@ -186,28 +172,7 @@ if (window.pageYOffset >= rotL3){
     left3.style.transform = "rotate(0deg)";
     }
 });
-window.addEventListener("optimizedScroll", function() {
-if (window.pageYOffset >= rotR4){
-    right4.style.transition = "transform 5s ease";
-    right4.style.transform = "rotate(30deg)";}
-    else if (window.pageYOffset <= rotR4) {
-    right4.style.transition = "transform .5s ease";
-    right4.style.transform = "rotate(0deg)";}
-    else {
-    right4.style.transform = "rotate(0deg)";
-    }
-});
-window.addEventListener("optimizedScroll", function() {
-if (window.pageYOffset >= rotL4){
-    left4.style.transition = "transform 5s ease";
-    left4.style.transform = "rotate(-30deg)";}
-    else if (window.pageYOffset <= rotL4){
-    left4.style.transition = "transform .5s ease";
-    left4.style.transform = "rotate(0deg)";}
-    else {
-    left4.style.transform = "rotate(0deg)";
-    }
-});
+
   </script>
   </body>
 </html>
