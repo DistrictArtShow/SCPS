@@ -53,8 +53,9 @@ div.headtop {
   padding: 40px;
   margin-top: 500px;
   margin-bottom: 100px;
-  margin-right: 20%;
-  margin-left: 20%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
   font-family: 'Acme';
   font-size: 3em;
   font-style: italic;
