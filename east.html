@@ -8,7 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
   </head>
-  <body class="sbg" onload="appear()" id="loading">
+  <body onload="appear()" id="loading">
     
     <div class="navbar" id="menu">
     <a href="about.html">About The Show</a>
@@ -363,7 +363,7 @@
     
   <script>
     function appear(){
-    document.getElementById("loading").style.backgroundImage: "none";
+    document.getElementById("loading").style.backgroundImage = "none";
     document.getElementById("right").style.opacity = "100%";
     document.getElementById("left").style.opacity = "100%";
     }
