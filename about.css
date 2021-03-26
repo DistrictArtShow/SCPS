@@ -10,6 +10,7 @@ p {
   text-align: center;
   color: white;
   text-shadow: 4px 2px 10px #000000;
+  overflow-x: hidden;
 }
 @media only screen and (max-width: 500px){
   p {
