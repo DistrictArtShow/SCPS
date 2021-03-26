@@ -11,6 +11,11 @@ p {
   color: white;
   text-shadow: 4px 2px 10px #000000;
 }
+@media only screen and (max-width: 500px){
+  p {
+    font-size: .75em;
+  }
+}
 .navbar {
   margin: auto;
   padding-top: 20px;
@@ -90,6 +95,22 @@ div.two {
   box-shadow: 4px 2px 10px #000000;
 }
 
+@media only screen and (max-width: 800px) {
+  .one {
+    margin-right:-200px;
+  }
+  .two {
+    margin-left:-200px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .one {
+    margin-right:-100px;
+  }
+  .two {
+    margin-left:-100px;
+  }
+}
 div.inner-left {
  margin-left: 30%;
  }
@@ -111,4 +132,5 @@ div.inner-right {
   .inner-right {
     margin-right: 70%;
   }
+}
   
