@@ -122,18 +122,18 @@ div.inner-right {
  }
 @media only screen and (max-width: 800px) {
   .inner-left {
-    margin-left: 50%;
-  }
-  .inner-right {
-    margin-right: 50%;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .inner-left {
     margin-left: 70%;
   }
   .inner-right {
     margin-right: 70%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .inner-left {
+    margin-left: 90%;
+  }
+  .inner-right {
+    margin-right: 90%;
   }
 }
   
