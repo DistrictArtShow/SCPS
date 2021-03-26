@@ -63,8 +63,8 @@
 right1 = document.getElementById("right1");
     
 window.addEventListener("scroll", function() {
-    right1.style.transform = "rotate("+window.pageYOffset+"deg)*.25";
-    left1.style.transform = "rotate(-"+window.pageYOffset+"deg)*.25";
+    right1.style.transform = "rotate(.25*"+window.pageYOffset+"deg)";
+    left1.style.transform = "rotate(-.25*"+window.pageYOffset+"deg)";
 });
   </script>
   </body>
