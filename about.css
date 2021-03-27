@@ -108,17 +108,17 @@ div.two {
 }
 @media only screen and (max-width: 600px) {
   .one {
-    margin-right:-150;
+    margin-right:-150px;
   }
   .two {
-    margin-left:-150;
+    margin-left:-150px;
   }
 }
 @media only screen and (max-width: 400px) {
   .one {
     position: absolute;
-    right: 0;
-    margin-right: 0;
+    right: 0px;
+    margin-right: 0px;
   }
   .two {
     position: absolute;
