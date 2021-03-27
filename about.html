@@ -75,7 +75,13 @@ rotL2 = left2.offsetTop -200,
 rotR3 = right3.offsetTop -200,
 rotL3 = left3.offsetTop -200,
 opH = head.offsetTop-300;
+    
+const mediaQuery = window.matchMedia('(max-width: 500px)')
 
+function () {
+  if (mediaQuery.matches) outputElement.textContent = "Bigger Than Mobile";
+  else outputElement.textContent = "Mobile";
+}
     
     
     (function() {
@@ -170,6 +176,10 @@ if (window.pageYOffset >= rotL3){
     left3.style.transform = "rotate(0deg)";
     }
 });
+    function () {
+  if (mediaQuery.matches) document.getElementById("head").disabled = true;
+  else document.getElementById("head").disabled = false;
+}
 
   </script>
   </body>
