@@ -117,9 +117,13 @@ div.two {
 @media only screen and (max-width: 500px) {
   .one {
     margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
   }
   .two {
     margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
   }
 }
 div.inner-left {
@@ -128,4 +132,11 @@ div.inner-left {
 div.inner-right {
  margin-right: 30%;
  }
-  
+ @media only screen and (max-width: 500px) {
+   .inner-left {
+     margin-left: 0px;
+   }
+   .inner-right {
+     margin-right: 0px;
+   }
+}
