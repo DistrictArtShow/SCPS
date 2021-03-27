@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SCPS District Art Exhibition - Martha Layne Collins High School</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css">
+    <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+  </head>
+  <body onload="appear()" id="loading">
+    
+    <div class="navbar" id="menu">
+    <a href="about.html">About The Show</a>
+    <a href="schools.html">Schools</a>
+  </div>
+   
+    <!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 44</div>
+      <img src="Hypes_001.jpg" style="width:100%">
+      <div class="caption-container">By: Aidyn Weingartner, 8th Grade</div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 44</div>
+      <img src="Hypes_002.png" style="width:100%">
+      <div class="caption-container">By: Alexis Lorenzana, 8th Grade</div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 44</div>
+      <img src="Hypes_003.jpg" style="width:100%">
+      <div class="caption-container">By: August Townsend, 7th Grade</div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 44</div>
+      <img src="Hypes_004.png" style="width:100%">
+      <div class="caption-container">By: August Townsend, 7th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">5 / 44</div>
+      <img src="Hypes_005.png" style="width:100%">
+      <div class="caption-container">By: Brianna Bruner, 8th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">6 / 44</div>
+      <img src="Hypes_006.jpg" style="width:100%">
+      <div class="caption-container">By: Calli Tindle, 8th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">7 / 44</div>
+      <img src="Hypes_007.jpeg" style="width:100%">
+      <div class="caption-container">By: Carmen Weingarten, 7th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">8 / 44</div>
+      <img src="Hypes_008.jpg" style="width:100%">
+      <div class="caption-container">By: Clark Hudson, 7th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">9 / 44</div>
+      <img src="Hypes_009.jpeg" style="width:100%">
+      <div class="caption-container">By: Colten Block, 7th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">10 / 44</div>
+      <img src="Hypes_0010.png" style="width:100%">
+      <div class="caption-container">By: Dempsey Browning, 8th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">11 / 44</div>
+      <img src="Hypes_0011.png" style="width:100%">
+      <div class="caption-container">By: Emilia Waldridge, 8th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">12 / 44</div>
+      <img src="Hypes_0012.png" style="width:100%">
+      <div class="caption-container">By: Emilia Waldridge, 8th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">13 / 44</div>
+      <img src="Hypes_0013.png" style="width:100%">
+      <div class="caption-container">By: Ethan Raney, 8th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">14 / 44</div>
+      <img src="Hypes_0014.jpeg" style="width:100%">
+      <div class="caption-container">By: Geena Shepard, 8th</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">15 / 44</div>
+      <img src="Hypes_0015.gif" style="width:100%">
+      <div class="caption-container">By: Hayden Tracy, 8th</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">16 / 44</div>
+      <img src="Hypes_0016.png" style="width:100%">
+      <div class="caption-container">By: Isabella Edwards, 8th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">17 / 44</div>
+      <img src="Hypes_0017.png" style="width:100%">
+      <div class="caption-container">By: Isabella Valenzuela, 8th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">18 / 44</div>
+      <img src="Hypes_0018.jpg" style="width:100%">
+      <div class="caption-container">By: Jaidan Remer, 8th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">19 / 44</div>
+      <img src="Hypes_0019.jpg" style="width:100%">
+      <div class="caption-container">By: Jasmine Miller, 7th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">20 / 44</div>
+      <img src="Hypes_0020.jpg" style="width:100%">
+      <div class="caption-container">By: Jesse Trizinski, 8th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">21 / 44</div>
+      <img src="Hypes_0021.jpg" style="width:100%">
+      <div class="caption-container">By: Jessie Cottrell, 7th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">22 / 44</div>
+      <img src="Hypes_0022.PNG" style="width:100%">
+      <div class="caption-container">By: Jordan Kelly, 7th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">23 / 44</div>
+      <img src="Hypes_0023.png" style="width:100%">
+      <div class="caption-container">By: Kairi Helton, 7th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">24 / 44</div>
+      <img src="Hypes_0024.jpeg" style="width:100%">
+      <div class="caption-container">By: Karsen Fannin, 8th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">25 / 44</div>
+      <img src="Hypes_0025.png" style="width:100%">
+      <div class="caption-container">By: Kay Martinez, 7th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">26 / 44</div>
+      <img src="Hypes_0026.png" style="width:100%">
+      <div class="caption-container">By: Kimberly Cruz Moreno, 8th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">27 / 44</div>
+      <img src="Hypes_0027.gif" style="width:100%">
+      <div class="caption-container">By: Mackenzie Watts, 7th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">28 / 44</div>
+      <img src="Hypes_0028.png" style="width:100%">
+      <div class="caption-container">By: Mackenzie Warren, 7th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">29 / 44</div>
+      <img src="Hypes_0029.jpeg" style="width:100%">
+      <div class="caption-container">By: Maha Salem, 8th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">30 / 44</div>
+      <img src="Hypes_0030.jpg" style="width:100%">
+      <div class="caption-container">By: Maha Salem, 8th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">31 / 44</div>
+      <img src="Hypes_0031.jpeg" style="width:100%">
+      <div class="caption-container">By: Markus Maze, 8th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">32 / 44</div>
+      <img src="Hypes_0032.jpg" style="width:100%">
+      <div class="caption-container">By: Melissa Contrerez, 7th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">33 / 44</div>
+      <img src="Hypes_0033.jpg" style="width:100%">
+      <div class="caption-container">By: Nicholas Ross, 7th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">34 / 44</div>
+      <img src="Hypes_0034.png" style="width:100%">
+      <div class="caption-container">By: Savannah Priddy, 7th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">35 / 44</div>
+      <img src="Hypes_0035.jpeg" style="width:100%">
+      <div class="caption-container">By: Sarah Barnett, 8th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">36 / 44</div>
+      <img src="Hypes_0036.jpeg" style="width:100%">
+      <div class="caption-container">By: Sarah Barnett, 8th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">37 / 44</div>
+      <img src="Hypes_0037.jpeg" style="width:100%">
+      <div class="caption-container">By: Sarah Barnett, 8th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">38 / 44</div>
+      <img src="Hypes_0038.png" style="width:100%">
+      <div class="caption-container">By: Sarah Barnett, 8th Grade</div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">39 / 44</div>
+      <img src="Hypes_0039.jpg" style="width:100%">
+      <div class="caption-container">By: Savannah Coomes, 7th Grade</div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">40 / 44</div>
+      <img src="Hypes_0040.jpg" style="width:100%">
+      <div class="caption-container">By: Savannah Coomes, 7th Grade</div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">41 / 44</div>
+      <img src="Hypes_0041.png" style="width:100%">
+      <div class="caption-container">By: Shianna Ford, 8th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">42 / 44</div>
+      <img src="Hypes_0042.jpg" style="width:100%">
+      <div class="caption-container">By: Shyley Charbeneau, 7th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">43 / 44</div>
+      <img src="Hypes_0043.jpg" style="width:100%">
+      <div class="caption-container">By: Sydney Hunt, 7th Grade</div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">44 / 44</div>
+      <img src="Hypes_0044.jpg" style="width:100%">
+      <div class="caption-container">By: Yliani Lopez, 8th Grade</div>
+    </div>
+    
+    
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  </div>
+  </div>
+   
+    
+    <div class="left" id="left">
+      <div class="left-con">
+      <h1>Mr. Hypes' Art Class</h1>
+        <p>Without any teachers or classmates watching, students went to work alone in thier rooms. Sometimes the work barely resembled the instructions. But that didn't matter, because this work is fascinating, funny and a testament to the fact that creativity thrives on instability.</p>
+      </div>
+    </div>
+    
+    <div class="right" id="right">
+    <div class="reGallery-con">
+  <div class="reGal-Box">
+  <div class="photos">
+    <div class="tooltip"> <img src="Hypes_001.jpg" alt="" onclick="openModal();currentSlide(1)" class="hover-shadow"> <span class="tooltiptext">Aidyn Weingartner</span></div>
+    <div class="tooltip"> <img src="Hypes_002.png" alt="" onclick="openModal();currentSlide(2)" class="hover-shadow"> <span class="tooltiptext">Alexis Lorenzana</span></div>
+    <div class="tooltip"> <img src="Hypes_003.jpg" alt="" onclick="openModal();currentSlide(3)" class="hover-shadow"> <span class="tooltiptext">August Townsend</span></div>
+    <div class="tooltip"> <img src="Hypes_004.png" alt="" onclick="openModal();currentSlide(4)" class="hover-shadow"> <span class="tooltiptext">August Townsend</span></div>
+    <div class="tooltip"> <img src="Hypes_005.png" alt="" onclick="openModal();currentSlide(5)" class="hover-shadow"> <span class="tooltiptext">Brianna Bruner</span></div>
+    <div class="tooltip"> <img src="Hypes_006.jpg" alt="" onclick="openModal();currentSlide(6)" class="hover-shadow"> <span class="tooltiptext">Calli Tindle</span></div>
+    <div class="tooltip"> <img src="Hypes_007.jpeg" alt="" onclick="openModal();currentSlide(7)" class="hover-shadow"> <span class="tooltiptext">Carmen Weingarten</span></div>
+    <div class="tooltip"> <img src="Hypes_008.jpg" alt="" onclick="openModal();currentSlide(8)" class="hover-shadow"> <span class="tooltiptext">Clark Hudson</span></div>
+    <div class="tooltip"> <img src="Hypes_009.jpeg" alt="" onclick="openModal();currentSlide(9)" class="hover-shadow"> <span class="tooltiptext">Colten Block</span></div>
+    <div class="tooltip"> <img src="Hypes_0010.png" alt="" onclick="openModal();currentSlide(10)" class="hover-shadow"> <span class="tooltiptext">Dempsey Browning</span></div>
+    <div class="tooltip"> <img src="Hypes_0011.png" alt="" onclick="openModal();currentSlide(11)" class="hover-shadow"> <span class="tooltiptext">Emilia Waldridge</span></div>
+    <div class="tooltip"> <img src="Hypes_0012.png" alt="" onclick="openModal();currentSlide(12)" class="hover-shadow"> <span class="tooltiptext">Emilia Waldridge</span></div>
+    <div class="tooltip"> <img src="Hypes_0013.png" alt="" onclick="openModal();currentSlide(13)" class="hover-shadow"> <span class="tooltiptext">Ethan Raney</span></div>
+    <div class="tooltip"> <img src="Hypes_0014.jpeg" alt="" onclick="openModal();currentSlide(14)" class="hover-shadow"> <span class="tooltiptext">Geena Shepard</span></div>
+    <div class="tooltip"> <img src="Hypes_0015.gif" alt="" onclick="openModal();currentSlide(15)" class="hover-shadow"> <span class="tooltiptext">Hayden Tracy</span></div>
+    <div class="tooltip"> <img src="Hypes_0016.png" alt="" onclick="openModal();currentSlide(16)" class="hover-shadow"> <span class="tooltiptext">Isabella Edwards</span></div>
+    <div class="tooltip"> <img src="Hypes_0017.png" alt="" onclick="openModal();currentSlide(17)" class="hover-shadow"> <span class="tooltiptext">Isabella Valenzuela</span></div>
+    <div class="tooltip"> <img src="Hypes_0018.jpg" alt="" onclick="openModal();currentSlide(18)" class="hover-shadow"> <span class="tooltiptext">Jaidan Remer</span></div>
+    <div class="tooltip"> <img src="Hypes_0019.jpg" alt="" onclick="openModal();currentSlide(19)" class="hover-shadow"> <span class="tooltiptext">Jasmine Miller</span></div>
+    <div class="tooltip"> <img src="Hypes_0020.jpg" alt="" onclick="openModal();currentSlide(20)" class="hover-shadow"> <span class="tooltiptext">Jesse Trizinski</span></div>
+    <div class="tooltip"> <img src="Hypes_0021.jpg" alt="" onclick="openModal();currentSlide(21)" class="hover-shadow"> <span class="tooltiptext">Jessie Cottrell</span></div>
+    <div class="tooltip"> <img src="Hypes_0022.PNG" alt="" onclick="openModal();currentSlide(22)" class="hover-shadow"> <span class="tooltiptext">Jordan Kelly</span></div>
+    <div class="tooltip"> <img src="Hypes_0023.png" alt="" onclick="openModal();currentSlide(23)" class="hover-shadow"> <span class="tooltiptext">Kairi Helton</span></div>
+    <div class="tooltip"> <img src="Hypes_0024.jpeg" alt="" onclick="openModal();currentSlide(24)" class="hover-shadow"> <span class="tooltiptext">Karsen Fannin</span></div>
+    <div class="tooltip"> <img src="Hypes_0025.png" alt="" onclick="openModal();currentSlide(25)" class="hover-shadow"> <span class="tooltiptext">Kay Martinez</span></div>
+    <div class="tooltip"> <img src="Hypes_0026.png" alt="" onclick="openModal();currentSlide(26)" class="hover-shadow"> <span class="tooltiptext">Kimberly Cruz Moreno</span></div>
+    <div class="tooltip"> <img src="Hypes_0027.gif" alt="" onclick="openModal();currentSlide(27)" class="hover-shadow"> <span class="tooltiptext">Mackenzie Watts</span></div>
+    <div class="tooltip"> <img src="Hypes_0028.png" alt="" onclick="openModal();currentSlide(28)" class="hover-shadow"> <span class="tooltiptext">Mackenzie Warren</span></div>
+    <div class="tooltip"> <img src="Hypes_0029.jpeg" alt="" onclick="openModal();currentSlide(29)" class="hover-shadow"> <span class="tooltiptext">Maha Salem</span></div>
+    <div class="tooltip"> <img src="Hypes_0030.jpg" alt="" onclick="openModal();currentSlide(30)" class="hover-shadow"> <span class="tooltiptext">Maha Salem</span></div>
+    <div class="tooltip"> <img src="Hypes_0031.jpeg" alt="" onclick="openModal();currentSlide(31)" class="hover-shadow"> <span class="tooltiptext">Markus Maze</span></div>
+    <div class="tooltip"> <img src="Hypes_0032.jpg" alt="" onclick="openModal();currentSlide(32)" class="hover-shadow"> <span class="tooltiptext">Melissa Contrerez</span></div>
+    <div class="tooltip"> <img src="Hypes_0033.jpg" alt="" onclick="openModal();currentSlide(33)" class="hover-shadow"> <span class="tooltiptext">Nicholas Ross</span></div>
+    <div class="tooltip"> <img src="Hypes_0034.png" alt="" onclick="openModal();currentSlide(34)" class="hover-shadow"> <span class="tooltiptext">Savannah Priddy</span></div>
+    <div class="tooltip"> <img src="Hypes_0035.jpeg" alt="" onclick="openModal();currentSlide(35)" class="hover-shadow"> <span class="tooltiptext">Sarah Barnett</span></div>
+    <div class="tooltip"> <img src="Hypes_0036.jpeg" alt="" onclick="openModal();currentSlide(36)" class="hover-shadow"> <span class="tooltiptext">Sarah Barnett</span></div>
+    <div class="tooltip"> <img src="Hypes_0037.jpeg" alt="" onclick="openModal();currentSlide(37)" class="hover-shadow"> <span class="tooltiptext">Sarah Barnett</span></div>
+    <div class="tooltip"> <img src="Hypes_0038.png" alt="" onclick="openModal();currentSlide(38)" class="hover-shadow"> <span class="tooltiptext">Sarah Barnett</span></div>
+    <div class="tooltip"> <img src="Hypes_0039.jpg" alt="" onclick="openModal();currentSlide(39)" class="hover-shadow"> <span class="tooltiptext">Savannah Coomes</span></div>
+    <div class="tooltip"> <img src="Hypes_0040.jpg" alt="" onclick="openModal();currentSlide(40)" class="hover-shadow"> <span class="tooltiptext">Savannah Coomes</span></div>
+    <div class="tooltip"> <img src="Hypes_0041.png" alt="" onclick="openModal();currentSlide(41)" class="hover-shadow"> <span class="tooltiptext">Shianna Ford</span></div>
+    <div class="tooltip"> <img src="Hypes_0042.jpg" alt="" onclick="openModal();currentSlide(42)" class="hover-shadow"> <span class="tooltiptext">Shyley Charbeneau</span></div>
+    <div class="tooltip"> <img src="Hypes_0043.jpg" alt="" onclick="openModal();currentSlide(43)" class="hover-shadow"> <span class="tooltiptext">Sydney Hunt</span></div>
+    <div class="tooltip"> <img src="Hypes_0044.jpg" alt="" onclick="openModal();currentSlide(44)" class="hover-shadow"> <span class="tooltiptext">Yliani Lopez</span></div>
+    
+    </div>
+  </div>
+    </div>
+    </div>
+    
+ 
+    
+  <script>
+    function appear(){
+    document.getElementById("loading").style.backgroundImage = "none";
+    document.getElementById("right").style.opacity = "100%";
+    document.getElementById("left").style.opacity = "100%";
+    }
+    function getRandomSize(min, max) {
+  return Math.round(Math.random() * (max - min) + min);
+}
+
+
+ 
+// Open the Modal
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}    
+  </script>
+  </body>
+</html>
