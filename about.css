@@ -114,7 +114,7 @@ div.two {
     margin-left:-150px;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .one {
     margin-right: 0px;
   }
