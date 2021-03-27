@@ -8,7 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
   </head>
-  <body id="cce">
+  <body onload="appear()" id="loading">
     
     <div class="navbar" id="menu">
     <a href="about.html">About The Show</a>
@@ -517,7 +517,7 @@
   </div>
   </div>
    
-    <div class="left">
+    <div class="left" id="left">
       <div class="left-con">
       <h1>Mrs. Holder's Art Class</h1>
       </div>
@@ -616,6 +616,11 @@
  
     
   <script>
+    function appear(){
+    document.getElementById("loading").style.backgroundImage = "none";
+    document.getElementById("right").style.opacity = "100%";
+    document.getElementById("left").style.opacity = "100%";
+    }
     function getRandomSize(min, max) {
   return Math.round(Math.random() * (max - min) + min);
 }
