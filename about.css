@@ -110,12 +110,20 @@ div.two {
     padding-left: 200px;
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .one {
-    margin-right:0;
+    margin-right:-150;
   }
   .two {
-    margin-left:0;
+    margin-left:-150;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .one {
+    margin-right:-100;
+  }
+  .two {
+    margin-left:-100;
   }
 }
 div.inner-left {
@@ -124,20 +132,4 @@ div.inner-left {
 div.inner-right {
  margin-right: 30%;
  }
-@media only screen and (max-width: 800px) {
-  .inner-left {
-    margin-left: 70%;
-  }
-  .inner-right {
-    margin-right: 70%;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .inner-left {
-    left:0;
-  }
-  .inner-right {
-     right:0;
-  }
-}
   
