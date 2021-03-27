@@ -116,14 +116,10 @@ div.two {
 }
 @media only screen and (max-width: 400px) {
   .one {
-    position: absolute;
-    right: 0px;
     margin-right: 0px;
   }
   .two {
-    position: absolute;
-    left: 0px;
-    margin-left:0px;
+    margin-left: 0px;
   }
 }
 div.inner-left {
