@@ -111,17 +111,21 @@ div.small-window {
 @media only screen and (max-width: 800px) {
   .one {
     margin-right:-200px;
+    padding: 60px;
   }
   .two {
     margin-left:-200px;
+    padding: 60px;
   }
 }
 @media only screen and (max-width: 600px) {
   .one {
     margin-right:-150px;
+    padding: 70px;
   }
   .two {
     margin-left:-150px;
+    padding: 70px;
   }
 }
 @media only screen and (max-width: 500px) {
