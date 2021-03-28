@@ -387,29 +387,17 @@
 window.addEventListener("optimizedScroll", function() {
 if (window.pageYOffset >= TOPR2){
     leftA.style.opacity = "0%";
-    right1.style.opacity = "0%";
-    right1.style.height = "0px";
-    right2.style.opacity = "100%";
-    right2.style.height = "auto";
     leftC.style.opacity = "100%";
     leftA.style.transition = "opacity 2s ease";
     leftC.style.transition = "opacity 2s ease";}
     else if (window.pageYOffset <= TOPR2) {
     leftA.style.opacity = "100%";
     leftC.style.opacity = "0%";
-    right1.style.opacity = "100%";
-    right1.style.height = "auto";
-    right2.style.opacity = "0%";
-    right2.style.height = "0px";
     leftA.style.transition = "opacity 2s ease";
     leftC.style.transition = "opacity 2s ease";}
     else {
     leftA.style.opacity = "100%";
     leftC.style.opacity = "0%";
-    right1.style.opacity = "100%";
-    right1.style.height = "initial";
-    right2.style.opacity = "0%";
-    right2.style.height = "0px";
     }
 });
  
