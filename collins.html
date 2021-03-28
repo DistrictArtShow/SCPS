@@ -357,9 +357,9 @@
         leftC = document.getElementById("leftC"),
         TOPLC = leftC.offsetTop,
         right1 = document.getElementById("right1"),
-        TOPR1 = right1.offsetTop + right1.offsetHeight,
+        TOPR1 = right1.offsetTop,
         right2 = document.getElementById("right2"),
-        TOPR2 = right2.offsetTop + right2.offsetHeight;
+        TOPR2 = right2.offsetTop;
         
         
     
@@ -387,7 +387,7 @@
 })();
     
 window.addEventListener("optimizedScroll", function() {
-if (window.pageYOffset >= TOPR1){
+if (window.pageYOffset >= TOPR2){
     leftA.style.opacity = "0%";
     leftC.style.opacity = "100%";
     leftA.style.transition = "opacity 2s ease";
