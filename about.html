@@ -107,12 +107,12 @@ rotR3 = right3.offsetTop -200,
 rotL3 = left3.offsetTop -200,
 opH = head.offsetTop-100;
 
- var x = window.matchMedia("(max-width: 700px)")
+ var x = window.matchMedia("(max-width: 450px)")
 myFunction(x)
 x.addListener(myFunction)
 function myFunction(x) {
   if (x.matches) {
-    document.getElementById("head").style.width = "60%";
+    document.getElementById("head").style.width = "50%";
     document.getElementById("head").style.opacity = "100%";
     document.getElementById("small-window1").style.opacity = "100%";
     document.getElementById("small-window1").style.height = "auto";
@@ -133,7 +133,7 @@ function myFunction(x) {
     document.getElementById("right2").style.opacity = "0%";
     document.getElementById("right3").style.opacity = "0%";
   } else {
-    document.getElementById("head").style.width = "60%";
+    document.getElementById("head").style.width = "50%";
     document.getElementById("head").style.opacity = "100%";
     document.getElementById("small-window1").style.opacity = "0%";
     document.getElementById("small-window1").style.height = "0%";
@@ -174,12 +174,12 @@ function myFunction(x) {
 })();
 window.addEventListener("optimizedScroll", function() {
   if(window.pageYOffset >= opH){
-    head.style.width = "80%";
+    head.style.width = "55%";
     head.style.opacity = "0%";}
   else if (window.pageYOffset <= opH){
-    head.style.width = "60%";
+    head.style.width = "50%";
     head.style.opacity = "100%";}
-  else {head.style.width = "60%";
+  else {head.style.width = "50%";
     head.style.opacity = "100%";}
 });
 window.addEventListener("optimizedScroll", function() {
