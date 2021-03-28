@@ -357,9 +357,10 @@
         leftC = document.getElementById("leftC"),
         TOPLC = leftC.offsetTop,
         right1 = document.getElementById("right1"),
-        TOPR1 = right1.offsetTop,
+        TOPR1 = right1.offsetBottom,
         right2 = document.getElementById("right2"),
-        TOPR2 = right2.offsetTop;
+        TOPR2 = right2.offsetBottom,
+        offsetBottom = element.offsetTop + element.offsetHeight;
         
     
     function appear(){
