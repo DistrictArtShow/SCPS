@@ -351,14 +351,14 @@
     
   <script>
     var leftA = document.getElementById("leftA"),
-        TOPLA = leftA.offsetBottom,
+        TOPLA = leftA.offsetTop,
         leftC = document.getElementById("leftC"),
-        TOPLC = leftC.offsetBottom,
+        TOPLC = leftC.offsetTop,
         right1 = document.getElementById("right1"),
-        TOPR1 = right1.offsetBottom,
+        TOPR1 = right1.offsetTop,
         right2 = document.getElementById("right2"),
-        TOPR2 = right2.offsetBottom,
-        element.offsetBottom = element.offsetTop + element.offsetHeight;
+        TOPR2 = right2.offsetTop;
+        
     
     function appear(){
     document.getElementById("loading").style.backgroundImage = "none";
@@ -383,7 +383,7 @@
 })();
     
 window.addEventListener("optimizedScroll", function() {
-if (window.pageYOffset >= TOPR1){
+if (window.pageYOffset >= TOPR2){
     leftA.style.opacity = "0%";
     right1.style.opacity = "0%";
     right1.style.height = "0px";
@@ -392,7 +392,7 @@ if (window.pageYOffset >= TOPR1){
     leftC.style.opacity = "100%";
     leftA.style.transition = "opacity 2s ease";
     leftC.style.transition = "opacity 2s ease";}
-    else if (window.pageYOffset <= TOPR1) {
+    else if (window.pageYOffset <= TOPR2) {
     leftA.style.opacity = "100%";
     leftC.style.opacity = "0%";
     right1.style.opacity = "100%";
