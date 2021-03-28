@@ -85,6 +85,32 @@ rotR3 = right3.offsetTop -200,
 rotL3 = left3.offsetTop -200,
 opH = head.offsetTop-300;
 
+ var x = window.matchMedia("(max-width: 700px)")
+myFunction(x)
+x.addListener(myFunction)
+function myFunction(x) {
+  if (x.matches) {
+    document.getElementById("head").style.width = "60%";
+    document.getElementById("head").style.opacity = "100%";
+    document.getElementById("small-window").style.opacity = "100%";
+    document.getElementById("left1").style.opacity = "0%";
+    document.getElementById("left2").style.opacity = "0%";
+    document.getElementById("left3").style.opacity = "0%";
+    document.getElementById("right1").style.opacity = "0%";
+    document.getElementById("right2").style.opacity = "0%";
+    document.getElementById("right3").style.opacity = "0%";
+  } else {
+    document.getElementById("head").style.width = "60%";
+    document.getElementById("head").style.opacity = "100%";
+    document.getElementById("small-window").style.opacity = "0%";
+    document.getElementById("left1").style.opacity = "100%";
+    document.getElementById("left2").style.opacity = "100%";
+    document.getElementById("left3").style.opacity = "100%";
+    document.getElementById("right1").style.opacity = "100%";
+    document.getElementById("right2").style.opacity = "100%";
+    document.getElementById("right3").style.opacity = "100%";
+  }
+}
     
  (function() {
     var throttle = function(type, name, obj) {
@@ -104,7 +130,7 @@ opH = head.offsetTop-300;
 })();
 window.addEventListener("optimizedScroll", function() {
   if(window.pageYOffset >= opH){
-    head.style.width = "300%";
+    head.style.width = "80%";
     head.style.opacity = "0%";}
   else if (window.pageYOffset <= opH){
     head.style.width = "60%";
@@ -178,26 +204,6 @@ if (window.pageYOffset >= rotL3){
     left3.style.transform = "rotate(0deg)";
     }
 });
-
-function smlscrn() {
-  if (window.matchMedia("(max-width: 500px)").matches) {
-    document.getElementById("small-window").style.opacity = "100%";
-    document.getElementById("left1").style.opacity = "0%";
-    document.getElementById("left2").style.opacity = "0%";
-    document.getElementById("left3").style.opacity = "0%";
-    document.getElementById("right1").style.opacity = "0%";
-    document.getElementById("right2").style.opacity = "0%";
-    document.getElementById("right3").style.opacity = "0%";
-  } else {
-    document.getElementById("small-window").style.opacity = "0%";
-    document.getElementById("left1").style.opacity = "100%";
-    document.getElementById("left2").style.opacity = "100%";
-    document.getElementById("left3").style.opacity = "100%";
-    document.getElementById("right1").style.opacity = "100%";
-    document.getElementById("right2").style.opacity = "100%";
-    document.getElementById("right3").style.opacity = "100%";
-  }
-}    
 
   </script>
   </body>
