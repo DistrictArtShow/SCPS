@@ -349,7 +349,7 @@
         <iframe width="80%" height="600px" style="padding-left:25px;padding-top:25px;margin-left:auto;margin-right:auto;" src="https://www.youtube.com/embed/YWYS8AlV00c" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>  
- 
+    <div id="xtraSpace"></div>
     
   <script>
     var leftA = document.getElementById("leftA"),
@@ -362,6 +362,19 @@
         TOPR2 = right2.offsetTop;
         
         
+ var x = window.matchMedia("(max-width: 450px)")
+myFunction(x)
+x.addListener(myFunction)
+function myFunction(x) {
+  if (x.matches) {
+    document.getElementById("xtraSpace").style.height = "200px";
+  }
+  else {
+    document.getElementById("xtraSpace").style.height = "200px";
+  }
+}
+    
+    
     
     function appear(){
     document.getElementById("loading").style.backgroundImage = "none";
