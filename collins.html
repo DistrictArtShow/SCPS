@@ -357,10 +357,10 @@
         leftC = document.getElementById("leftC"),
         TOPLC = leftC.offsetTop,
         right1 = document.getElementById("right1"),
-        TOPR1 = right1.offsetBottom,
+        TOPR1 = right1.offsetTop + right1.offsetHeight,
         right2 = document.getElementById("right2"),
-        TOPR2 = right2.offsetBottom,
-        offsetBottom = element.offsetTop + element.offsetHeight;
+        TOPR2 = right2.offsetTop + right2.offsetHeight;
+        
         
     
     function appear(){
@@ -387,19 +387,19 @@
 })();
     
 window.addEventListener("optimizedScroll", function() {
-if (window.pageYOffset >= TOPR2){
+if (window.pageYOffset >= TOPR1){
+    leftA.style.opacity = "100%";
+    leftC.style.opacity = "0%";
+    leftA.style.transition = "opacity 2s ease";
+    leftC.style.transition = "opacity 2s ease";}
+    else if (window.pageYOffset <= TOPR1) {
     leftA.style.opacity = "0%";
     leftC.style.opacity = "100%";
     leftA.style.transition = "opacity 2s ease";
     leftC.style.transition = "opacity 2s ease";}
-    else if (window.pageYOffset <= TOPR2) {
-    leftA.style.opacity = "100%";
-    leftC.style.opacity = "0%";
-    leftA.style.transition = "opacity 2s ease";
-    leftC.style.transition = "opacity 2s ease";}
     else {
-    leftA.style.opacity = "100%";
-    leftC.style.opacity = "0%";
+    leftA.style.opacity = "0%";
+    leftC.style.opacity = "100%";
     }
 });
  
