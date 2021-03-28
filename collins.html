@@ -278,14 +278,19 @@
   </div>
    
     
-    <div class="left" id="left">
+    <div class="left" id="leftA">
       <div class="left-con">
       <h1>Mr. Allison's Art Class</h1>
         <p>If they learn nothing else from me, let them kindle their creativity, and learn to love one another as they want to be loved.</p>
       </div>
     </div>
     
-    <div class="right" id="right">
+    <div class="left" id="leftC">
+      <div class="left-con">
+        <h1>Mr. C's Art Class</h1>
+        <p>
+    
+    <div class="right" id="right1">
     <div class="reGallery-con">
   <div class="reGal-Box">
   <div class="photos">
@@ -336,15 +341,77 @@
   </div>
     </div>
     </div>
-    
+  
+    <div class="right" id="right2">
+      <div class="video-frame">
+        <iframe width="80%" height="600px" style="padding-left:25px;padding-top:25px;margin-left:auto;margin-right:auto;" src="https://www.youtube.com/embed/QWFE2PLZo2U" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>  
  
     
   <script>
+    var leftA = document.getElementById("leftA"),
+        TOPLA = leftA.offsetBottom,
+        leftC = document.getElementById("leftC"),
+        TOPLC = leftC.offsetBottom,
+        right1 = document.getElementById("right1"),
+        TOPR1 = right1.offsetBottom,
+        right2 = document.getElementById("right2"),
+        TOPR2 = right2.offsetBottom,
+        element.offsetBottom = element.offsetTop + element.offsetHeight;
+    
     function appear(){
     document.getElementById("loading").style.backgroundImage = "none";
     document.getElementById("right").style.opacity = "100%";
     document.getElementById("left").style.opacity = "100%";
     }
+    (function() {
+    var throttle = function(type, name, obj) {
+        var obj = obj || window;
+        var running = false;
+        var func = function() {
+            if (running) { return; }
+            running = true;
+            requestAnimationFrame(function() {
+                obj.dispatchEvent(new CustomEvent(name));
+                running = false;
+            });
+        };
+        obj.addEventListener(type, func);
+    };
+    throttle ("scroll", "optimizedScroll");
+})();
+    
+window.addEventListener("optimizedScroll", function() {
+if (window.pageYOffset >= TOPR1){
+    leftA.style.opacity = "0%";
+    right1.style.opacity = "0%";
+    right1.style.height = "0px";
+    right2.style.opacity = "100%";
+    right2.style.height = "initial";
+    leftC.style.opacity = "100%";
+    leftA.style.transition = "opacity 2s ease";
+    leftC.style.transition = "opacity 2s ease";}
+    else if (window.pageYOffset <= TOPR1) {
+    leftA.style.opacity = "100%";
+    leftC.style.opacity = "0%";
+    right1.style.opacity = "100%";
+    right1.style.height = "initial";
+    right2.style.opacity = "0%";
+    right2.style.height = "0px";
+    leftA.style.transition = "opacity 2s ease";
+    leftC.style.transition = "opacity 2s ease";}
+    else {
+    leftA.style.opacity = "100%";
+    leftC.style.opacity = "0%";
+    right1.style.opacity = "100%";
+    right1.style.height = "initial";
+    right2.style.opacity = "0%";
+    right2.style.height = "0px";
+    }
+});
+ 
+    
     function getRandomSize(min, max) {
   return Math.round(Math.random() * (max - min) + min);
 }
