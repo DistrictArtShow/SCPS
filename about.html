@@ -20,7 +20,16 @@
   <div class="headtop" id="head">
     Scroll down to read the origin story of our Art Show
   </div>
-  
+
+  <div class="small-window" id="small-window">
+  <p>It all started with a big idea. Mr C's Art 4 class planned, procured a space, and curated the event...<br><br>
+    The night of the big event, hundreds of Shelby County residents came to see the 1st annual SCPS District Art Show...<br><br>
+    Plans were already in motion for the next year's showcase. Then the Covid-19 Pandemic hit and changed everything...<br><br>
+    When we finally left NTI and came back to school in October, things were hopeful, but it was apparent that an in-person show wasn't going to happen...<br><br>
+    Out of necessity, the 1st ever Virtual District Art Show was born...<br><br>
+    We sincerely hope you enjoy the artwork your loved ones have created this year!</p>
+  </div>
+       
 <div class="one" id="right1">
   <div class="inner-right">
     <p>It all started with a big idea. Mr C's Art 4 class planned, procured a space, and curated the event...</p>
@@ -76,6 +85,7 @@ rotR3 = right3.offsetTop -200,
 rotL3 = left3.offsetTop -200,
 opH = head.offsetTop-300;
 
+    
  (function() {
     var throttle = function(type, name, obj) {
         var obj = obj || window;
@@ -168,7 +178,26 @@ if (window.pageYOffset >= rotL3){
     left3.style.transform = "rotate(0deg)";
     }
 });
-    
+
+function smlscrn() {
+  if (window.matchMedia("(max-width: 500px)").matches) {
+    document.getElementById("small-window").style.opacity = "100%";
+    document.getElementById("left1").style.opacity = "0%";
+    document.getElementById("left2").style.opacity = "0%";
+    document.getElementById("left3").style.opacity = "0%";
+    document.getElementById("right1").style.opacity = "0%";
+    document.getElementById("right2").style.opacity = "0%";
+    document.getElementById("right3").style.opacity = "0%";
+  } else {
+    document.getElementById("small-window").style.opacity = "0%";
+    document.getElementById("left1").style.opacity = "100%";
+    document.getElementById("left2").style.opacity = "100%";
+    document.getElementById("left3").style.opacity = "100%";
+    document.getElementById("right1").style.opacity = "100%";
+    document.getElementById("right2").style.opacity = "100%";
+    document.getElementById("right3").style.opacity = "100%";
+  }
+}    
 
   </script>
   </body>
