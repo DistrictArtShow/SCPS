@@ -96,7 +96,8 @@ body {
     height: 100px;
     top: 0;
     left: 0;
-    position: absolute;
+    position: fixed;
+    z-index: 100;
   }
   .left-con {
     width: 95%;
