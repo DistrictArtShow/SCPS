@@ -99,11 +99,9 @@ div.two {
 @media only screen and (max-width: 800px) {
   .one {
     margin-right:-200px;
-    padding-right: 200px;
   }
   .two {
     margin-left:-200px;
-    padding-left: 200px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -144,11 +142,11 @@ div.inner-right {
  }
  @media only screen and (max-width: 500px) {
    .inner-left {
-     margin: auto;
+     margin: 0px;
      width: 90%;
    }
    .inner-right {
-     margin: auto;
+     margin: 0px;
      width: 90%
    }
 }
