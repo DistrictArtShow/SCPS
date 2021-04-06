@@ -371,7 +371,7 @@ blockquote {
   left: 0;
   width: 100%; /* Full width */
   cursor: pointer;
-  z-index: 99;
+  z-index: 1099;
 }
 
 .navbar a {
