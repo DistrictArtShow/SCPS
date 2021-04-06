@@ -750,6 +750,14 @@ div.photos img {
   left: -45px;
   border-radius: 3px 0 0 3px;
 }
+@media only screen and (max-width:500px){
+  .next {
+    right: 0px;
+  }
+  .prev {
+    left: 0px;
+  }
+}
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
