@@ -675,7 +675,7 @@ div.photos img {
 .modal {
   display: none;
   position: fixed;
-  z-index: 1;
+  z-index: 1000;
   padding-top: 45px;
   padding-bottom: 90px;
   left: 0;
@@ -708,6 +708,7 @@ div.photos img {
   right: 25px;
   font-size: 35px;
   font-weight: bold;
+  z-index: 1001;
 }
 
 .close:hover,
