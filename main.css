@@ -743,19 +743,19 @@ div.photos img {
 
 /* Position the "next button" to the right */
 .next {
-  right: -45px;
+  right: 10px;
   border-radius: 3px 0 0 3px;
 }
 .prev {
-  left: -45px;
+  left: 10px;
   border-radius: 3px 0 0 3px;
 }
 @media only screen and (max-width:500px){
   .next {
-    right: 0px;
+    right: 30px;
   }
   .prev {
-    left: 0px;
+    left: 30px;
   }
 }
 
