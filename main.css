@@ -728,7 +728,7 @@ div.photos img {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 15px;
   width: auto;
   padding: 16px;
   margin-top: -50px;
