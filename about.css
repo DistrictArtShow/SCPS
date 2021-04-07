@@ -88,7 +88,7 @@ div.headtop {
 }
   
 div.middle {
-  background-image: linear-gradient(150deg, #FFF4E9 0%, #4F5354 51%, #6A87A3 75%);
+  background-image: linear-gradient(150deg, #FFF4E9 0%, #6A87A3 51%, #4F5354 75%);
   border-radius: 25px;
   padding: 40px;
   margin-left: auto;
@@ -101,7 +101,7 @@ div.middle {
 }
 div.middle-sm {
   opacity: 0%;
-  background-image: linear-gradient(150deg, #FFF4E9 0%, #4F5354 51%, #6A87A3 75%);
+  background-image: linear-gradient(150deg, #FFF4E9 0%, #6A87A3 51%, #4F5354 75%);
   border-radius: 25px;
   padding: 40px;
   margin-left: auto;
@@ -113,7 +113,7 @@ div.middle-sm {
   box-shadow: 4px 2px 10px #000000;
 }
 div.one {
-  background-image: linear-gradient(150deg, #FFF4E9 0%, #4F5354 51%, #6A87A3 75%);
+  background-image: linear-gradient(150deg, #FFF4E9 0%, #6A87A3 51%, #4F5354 75%);
   border-radius: 25px;
   padding: 40px;
   margin-top: 500px;
@@ -125,7 +125,7 @@ div.one {
 }
 
 div.two {
-  background-image: linear-gradient(150deg, #FFF4E9 0%, #4F5354 51%, #6A87A3 75%);
+  background-image: linear-gradient(150deg, #FFF4E9 0%, #6A87A3 51%, #4F5354 75%);
   border-radius: 25px;
   padding: 40px;
   margin-top: 500px;
@@ -137,7 +137,7 @@ div.two {
 }
 
 div.small-window {
-  background-image: linear-gradient(150deg, #FFF4E9 0%, #4F5354 51%, #6A87A3 75%);
+  background-image: linear-gradient(150deg, #FFF4E9 0%, #6A87A3 51%, #4F5354 75%);
   opacity: 0%;
   border-radius: 25px;
   padding: 40px;
