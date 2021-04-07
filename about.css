@@ -88,7 +88,7 @@ div.headtop {
 }
   
 div.middle {
-  background-color: #fff4E9;
+  background-color: linear-gradient(150deg, #FFF4E9 0%, #4F5354 51%, #6A87A3 75%);
   border-radius: 25px;
   padding: 40px;
   margin-left: auto;
@@ -101,7 +101,7 @@ div.middle {
 }
 
 div.one {
-  background-color: #FFF4E9;
+  background-color: linear-gradient(150deg, #FFF4E9 0%, #4F5354 51%, #6A87A3 75%);
   border-radius: 25px;
   padding: 40px;
   margin-top: 500px;
@@ -113,7 +113,7 @@ div.one {
 }
 
 div.two {
-  background-color: #FFF4E9;
+  background-color: linear-gradient(150deg, #FFF4E9 0%, #4F5354 51%, #6A87A3 75%);
   border-radius: 25px;
   padding: 40px;
   margin-top: 500px;
@@ -125,7 +125,7 @@ div.two {
 }
 
 div.small-window {
-  background-color: #FFF4E9;
+  background-color: linear-gradient(150deg, #FFF4E9 0%, #4F5354 51%, #6A87A3 75%);
   opacity: 0%;
   border-radius: 25px;
   padding: 40px;
